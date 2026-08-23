@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dutr4 Ofertas | Curadoria de promoções com histórico de preço</title>
+<meta name="description" content="Curadoria independente de promoções de eletrodomésticos, informática e utilidades. Acompanhamos o histórico de preço antes de indicar, com guias de compra e análises honestas.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Dutr4 Ofertas",
+  "url": "https://vitrine.dutr4.com.br/",
+  "inLanguage": "pt-BR",
+  "description": "Curadoria independente de promoções com histórico de preço, guias de compra e análises de produtos."
+}
+</script>
+<style>
+  :root{
+    --bg-deep:#060b1d;
+    --bg-navy:#0d1636;
+    --surface:#101c42;
+    --surface-2:#132352;
+    --line:#24406e;
+    --blue:#3895e0;
+    --gold:#d4af5a;
+    --gold-light:#e8c882;
+    --text:#f2f4f8;
+    --muted:#93a3c4;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:radial-gradient(circle at 50% 0%, var(--bg-navy), var(--bg-deep) 70%);
+    color:var(--text);
+    font-family:'Poppins',Arial,Helvetica,sans-serif;
+    line-height:1.5;
+  }
+  .circuit{
+    position:fixed; inset:0; z-index:0; opacity:.25; pointer-events:none;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:60px 60px;
+    -webkit-mask-image:radial-gradient(circle at 50% 20%, black, transparent 75%);
+    mask-image:radial-gradient(circle at 50% 20%, black, transparent 75%);
+  }
+  header{ position:relative; z-index:1; text-align:center; padding:64px 20px 40px; }
+  .wordmark{
+    display:inline-block; font-size:26px; font-weight:700; letter-spacing:.02em;
+    border:1px solid var(--line); border-radius:14px; padding:12px 22px; margin-bottom:22px;
+  }
+  .wordmark span{ color:var(--gold-light); }
+  .nav{
+    display:flex; gap:20px; justify-content:center; flex-wrap:wrap; margin-bottom:34px;
+    font-size:14px; font-weight:600;
+  }
+  .nav a{ color:var(--muted); text-decoration:none; }
+  .nav a:hover{ color:var(--text); }
+  .eyebrow{
+    color:var(--blue); letter-spacing:.14em; font-weight:700; font-size:13px;
+    text-transform:uppercase; margin-bottom:10px;
+  }
+  h1{
+    font-size:clamp(28px,4vw,44px); font-weight:700; margin:0 auto 14px;
+    max-width:760px; line-height:1.15;
+  }
+  .sub{ color:var(--muted); max-width:620px; margin:0 auto 28px; font-size:16px; }
+  .cta-row{ display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+  .cta{
+    padding:14px 26px; border-radius:999px; font-weight:600; font-size:14px;
+    text-decoration:none; border:1px solid var(--line); color:var(--text);
+  }
+  .cta.primary{ background:linear-gradient(135deg, var(--gold), #b8873a); color:#1a1300; border:none; }
+  .cta.secondary{ background:transparent; color:var(--blue); border-color:var(--blue); }
+  main{ position:relative; z-index:1; max-width:1080px; margin:0 auto; padding:0 20px 80px; }
+  .section-title{ display:flex; align-items:center; gap:14px; margin:56px 0 22px; }
+  .section-title h2{ font-size:22px; margin:0; font-weight:700; }
+  .section-title .bar{ flex:1; height:1px; background:var(--line); }
+  .updated{ color:var(--muted); font-size:13px; white-space:nowrap; }
+  .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:20px; }
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:16px;
+    padding:18px; display:flex; flex-direction:column; gap:11px;
+    transition:transform .15s ease, border-color .15s ease;
+  }
+  .card:hover{ transform:translateY(-4px); border-color:var(--gold); }
+  .tile{
+    background:linear-gradient(140deg, var(--surface-2), #0e1a3d);
+    border:1px solid var(--line); border-radius:10px; height:104px;
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;
+  }
+  .tile .glyph{ font-size:30px; line-height:1; }
+  .tile .cat{
+    color:var(--muted); font-size:10px; letter-spacing:.12em; text-transform:uppercase; font-weight:700;
+  }
+  .card h3{ font-size:14.5px; margin:0; line-height:1.35; font-weight:600; }
+  .note{ color:var(--muted); font-size:12.5px; margin:0; flex:1; }
+  .card a.buy{
+    margin-top:4px; text-align:center; background:var(--blue); color:#fff;
+    padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:600; font-size:13px;
+  }
+  .card a.buy:hover{ background:#2c7bc4; }
+  .card a.ghost{
+    margin-top:-4px; text-align:center; background:transparent; color:var(--gold-light);
+    padding:9px 14px; border-radius:8px; text-decoration:none; font-weight:600; font-size:12.5px;
+    border:1px solid var(--gold);
+  }
+  .card a.ghost:hover{ background:rgba(212,175,90,.12); }
+  .prose{ color:var(--muted); font-size:15px; max-width:820px; }
+  .prose p{ margin:0 0 14px; }
+  .prose b{ color:var(--text); }
+  .prose ul{ margin:0 0 14px; padding-left:20px; }
+  .prose li{ margin-bottom:8px; }
+  .faq-teaser{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+  .faq-item{ background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  .faq-item h3{ margin:0 0 6px; font-size:14.5px; color:var(--text); }
+  .faq-item p{ margin:0; color:var(--muted); font-size:13.5px; }
+  .disclosure{
+    margin-top:56px; padding:20px 24px; border:1px solid var(--gold);
+    border-radius:14px; color:var(--muted); font-size:13.5px; background:var(--surface);
+  }
+  .disclosure b{ color:var(--gold-light); }
+  .disclosure p{ margin:0 0 10px; }
+  .disclosure p:last-child{ margin-bottom:0; }
+  footer{
+    position:relative; z-index:1; text-align:center; padding:36px 20px 56px;
+    color:var(--muted); font-size:13px;
+  }
+  footer a{ color:var(--blue); text-decoration:none; }
+  footer .links{ display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-bottom:8px; }
+</style>
+</head>
+<body>
+<div class="circuit"></div>
+
+<header>
+  <div class="wordmark">Dutr4 <span>Ofertas</span></div>
+  <nav class="nav">
+    <a href="/guias/">Guias de compra</a>
+    <a href="/reviews/">Análises</a>
+    <a href="/sobre/">Sobre</a>
+    <a href="/faq/">FAQ</a>
+    <a href="/contato/">Contato</a>
+  </nav>
+  <div class="eyebrow">Curadoria de promoções</div>
+  <h1>A gente confere o histórico de preço antes de indicar</h1>
+  <p class="sub">
+    Somos uma curadoria independente de promoções de eletrodomésticos, informática e utilidades.
+    Cada item abaixo passou pela nossa checagem e leva direto para a página do produto na Amazon.
+    Guias de compra e análises completam a seleção com conteúdo próprio.
+  </p>
+  <div class="cta-row">
+    <a class="cta primary" href="https://chat.whatsapp.com/JeI0zax1QQcEewb7rTWMft">Nosso grupo no WhatsApp</a>
+    <a class="cta secondary" href="https://t.me/primeofertabr">Nosso canal no Telegram</a>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-title">
+    <h2>Cozinha</h2><div class="bar"></div>
+    <span class="updated">Seleção de agosto/2026</span>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍳</div><div class="cat">Cozinha</div></div>
+      <h3>Philips Walita Fritadeira Airfryer Série 1000 4,2L, 12 funções, Preta (NA120/00)</h3>
+      <p class="note">Modelo de entrada da linha. A cuba de 4,2 L atende bem duas a três pessoas; para famílias maiores vale olhar as versões de 6 L. <b>Atenção:</b> este anúncio é a versão <b>110V</b>.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0F6YRL42F?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/reviews/philips-airfryer-1000/">Ler a análise completa</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍟</div><div class="cat">Cozinha</div></div>
+      <h3>Air Fryer Philco 6,5L Visor Glass 1700W PAF65</h3>
+      <p class="note">Cuba grande, de 6,5 L, com visor de vidro — dá para acompanhar o preparo sem interromper o ciclo. <b>Atenção:</b> este anúncio é a versão <b>220V</b>.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0F99ZZV44?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/reviews/philco-paf65/">Ler a análise completa</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍞</div><div class="cat">Cozinha</div></div>
+      <h3>Panificadora Automática Master Bread Mondial 700W (NPF-53)</h3>
+      <p class="note">Faz o ciclo completo, da mistura ao assado, sem acompanhamento. Boa porta de entrada para quem quer testar pão caseiro. Versão <b>220V</b>.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B07L8X97SR?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/reviews/mondial-npf-53/">Ler a análise completa</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🧊</div><div class="cat">Utilidades</div></div>
+      <h3>Bolsa Térmica Lancheira Grande com compartimentos duplos e alça ajustável</h3>
+      <p class="note">Dois compartimentos e revestimento impermeável. Serve para marmita de trabalho e academia — o tipo de item barato que costuma ter desconto agressivo em data comemorativa.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0H5LC7NSC?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+    </div>
+
+  </div>
+
+  <div class="section-title">
+    <h2>Eletrodomésticos</h2><div class="bar"></div>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="tile"><div class="glyph">❄️</div><div class="cat">Refrigeração</div></div>
+      <h3>Frigobar Eos Ice Compact 47L Branco (EFB50)</h3>
+      <p class="note">Porte de quarto, escritório ou área gourmet. 47 L é o suficiente para bebidas e alguns itens do dia; não substitui geladeira. Versão <b>110V</b>.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0C9DY8FVL?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/guias/frigobar/">Guia: como escolher o tamanho certo</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🧊</div><div class="cat">Refrigeração</div></div>
+      <h3>Frigobar Eos Ice Compact 71L Branco (EFB80)</h3>
+      <p class="note">Mesma linha do anterior, com 71 L. A diferença de preço entre os dois costuma ser pequena — se o espaço permitir, o de 71 L costuma compensar mais.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0GQBG77KJ?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/guias/frigobar/">Guia: como escolher o tamanho certo</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🧺</div><div class="cat">Lavanderia</div></div>
+      <h3>Lavadora de Roupas Newmaq 10Kg Branca</h3>
+      <p class="note">Capacidade de 10 kg em uma marca de entrada — a faixa em que o preço costuma variar bastante entre vendedores. Versão <b>127V</b>.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B07L4MDP5Z?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/guias/lavadora/">Guia: o que importa além dos quilos</a>
+    </div>
+
+  </div>
+
+  <div class="section-title">
+    <h2>Informática e hardware</h2><div class="bar"></div>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🔌</div><div class="cat">Hardware</div></div>
+      <h3>Placa-mãe Gigabyte B550M AORUS ELITE (AM4, DDR4, M.2 NVMe)</h3>
+      <p class="note">Socket AM4 com DDR4 e slot M.2 NVMe — combina com os Ryzen das séries 3000 e 5000. Formato micro-ATX, então confira o espaço no gabinete.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B08BN8VD23?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/guias/placa-mae-am4/">Guia: AM4 ainda faz sentido?</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">⚡</div><div class="cat">Hardware</div></div>
+      <h3>Fonte XPG Core Reactor II VE 850W, 80 PLUS Gold, modular</h3>
+      <p class="note">850 W com certificação 80 PLUS Gold e cabos totalmente modulares. Traz o conector 12V-2x6, exigido pelas placas de vídeo RTX mais recentes.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0CNCHV3V4?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <a class="ghost" href="/guias/fonte-pc/">Guia: como escolher a fonte</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">💧</div><div class="cat">Hardware</div></div>
+      <h3>Water Cooler 240mm Gamdias Aura GL240 V2 ARGB</h3>
+      <p class="note">Radiador de 240 mm. Antes de comprar, confirme que o gabinete tem suporte para radiador desse tamanho no topo ou na frente.</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0GJ78Z3K5?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+    </div>
+
+  </div>
+
+  <div class="section-title">
+    <h2>Análises de produtos</h2><div class="bar"></div>
+    <span class="updated">Conteúdo próprio</span>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍳</div><div class="cat">Review</div></div>
+      <h3>Philips Walita Airfryer Série 1000 4,2L (NA120/00)</h3>
+      <p class="note">Prós, contras, para quem é indicada e o veredito — a análise honesta da nossa seleção de entrada.</p>
+      <a class="buy" href="/reviews/philips-airfryer-1000/">Ler a análise</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍟</div><div class="cat">Review</div></div>
+      <h3>Air Fryer Philco 6,5L Visor Glass (PAF65)</h3>
+      <p class="note">A melhor relação litros por real para famílias? Veja os prós, contras e o veredito.</p>
+      <a class="buy" href="/reviews/philco-paf65/">Ler a análise</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍞</div><div class="cat">Review</div></div>
+      <h3>Panificadora Master Bread Mondial (NPF-53)</h3>
+      <p class="note">A forma mais barata de testar a rotina do pão caseiro — com as limitações ditas na cara.</p>
+      <a class="buy" href="/reviews/mondial-npf-53/">Ler a análise</a>
+    </div>
+
+  </div>
+
+  <div class="section-title">
+    <h2>Guias de compra</h2><div class="bar"></div>
+    <span class="updated">Conteúdo próprio</span>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="tile"><div class="glyph">📉</div><div class="cat">Guia</div></div>
+      <h3>Como saber se um desconto é real</h3>
+      <p class="note">O truque do "de–por" inflado, como consultar o histórico de preço de qualquer produto, cinco sinais de promoção falsa e as épocas em que a queda costuma ser verdadeira.</p>
+      <a class="buy" href="/guias/desconto-real/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🔌</div><div class="cat">Guia</div></div>
+      <h3>110V ou 220V: como não errar</h3>
+      <p class="note">Como descobrir a tensão da sua casa, identificar aparelho bivolt de verdade, achar a voltagem escondida no anúncio e o que dá para fazer se a compra veio errada.</p>
+      <a class="buy" href="/guias/110v-220v/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍟</div><div class="cat">Guia</div></div>
+      <h3>Air fryer: qual tamanho para a sua família</h3>
+      <p class="note">Por que a capacidade anunciada engana, quantos litros por pessoa, o que olhar além do tamanho e os erros que mais aparecem depois da compra.</p>
+      <a class="buy" href="/guias/air-fryer/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🎛️</div><div class="cat">Guia</div></div>
+      <h3>Air fryer: o que cada função faz de verdade</h3>
+      <p class="note">Modos e presets traduzidos: o que vale a pena, o que é jogada de marketing e a regra de ouro para nunca depender de preset.</p>
+      <a class="buy" href="/guias/air-fryer-funcoes/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🧽</div><div class="cat">Guia</div></div>
+      <h3>Como limpar a air fryer sem estragar</h3>
+      <p class="note">Passo a passo para proteger o antiaderente, tirar gordura endurecida e acabar com o cheiro de comida velha.</p>
+      <a class="buy" href="/guias/air-fryer-limpeza/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">❄️</div><div class="cat">Guia</div></div>
+      <h3>Frigobar: como escolher o tamanho certo</h3>
+      <p class="note">47L ou 71L? O que um frigobar faz de verdade, o que olhar além dos litros e os erros comuns de compra.</p>
+      <a class="buy" href="/guias/frigobar/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🧺</div><div class="cat">Guia</div></div>
+      <h3>Lavadora: o que importa além dos quilos</h3>
+      <p class="note">Capacidade real, voltagem, instalação, programas e eficiência — o que decide a compra certa.</p>
+      <a class="buy" href="/guias/lavadora/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">⚡</div><div class="cat">Guia</div></div>
+      <h3>Fonte para PC: como escolher</h3>
+      <p class="note">Potência certa, certificação 80 Plus de verdade e o conector 12V-2x6 — sem superdimensionar nem subdimensionar.</p>
+      <a class="buy" href="/guias/fonte-pc/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🔌</div><div class="cat">Guia</div></div>
+      <h3>Placa-mãe AM4 em 2026: ainda faz sentido?</h3>
+      <p class="note">O custo-benefício do socket mais longevo, B450 vs B550 vs X570 e o que olhar no modelo.</p>
+      <a class="buy" href="/guias/placa-mae-am4/">Ler o guia</a>
+    </div>
+
+    <div class="card">
+      <div class="tile"><div class="glyph">🍞</div><div class="cat">Guia</div></div>
+      <h3>Panificadora vale a pena?</h3>
+      <p class="note">O que a máquina faz de verdade, a conta honesta por pão e para quem o investimento compensa.</p>
+      <a class="buy" href="/guias/panificadora/">Ler o guia</a>
+    </div>
+
+  </div>
+
+  <div class="section-title">
+    <h2>Perguntas frequentes</h2><div class="bar"></div>
+    <a href="/faq/" style="color:var(--blue);font-size:13.5px;font-weight:600;text-decoration:none;">Ver todas →</a>
+  </div>
+  <div class="faq-teaser">
+    <div class="faq-item">
+      <h3>Como vocês sabem que o desconto é real?</h3>
+      <p>Acompanhamos o histórico de preço e só chamamos de promoção o que está abaixo da média recente. O método está no guia de desconto real.</p>
+    </div>
+    <div class="faq-item">
+      <h3>O preço que aparece aqui vale na hora da compra?</h3>
+      <p>Não fixamos valores de propósito: preço de e-commerce muda várias vezes ao dia. O que vale é o preço da loja no momento da compra.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Vocês ganham dinheiro com os links?</h3>
+      <p>Sim, por compras em links de afiliado — sem custo adicional para você. A comissão chega depois da seleção e nunca influencia o critério.</p>
+    </div>
+  </div>
+
+  <div class="section-title">
+    <h2>Como escolhemos o que entra aqui</h2><div class="bar"></div>
+  </div>
+  <div class="prose">
+    <p>
+      Publicamos promoções desde 2025 e a regra que nos guia é simples: <b>desconto que não é real
+      não entra</b>. Antes de indicar um produto nós registramos o preço dele ao longo do tempo e
+      comparamos o valor atual com a média e com o mínimo já observado. Isso derruba o famoso
+      "de–por" inflado, em que a loja sobe o preço na véspera para anunciar uma queda que não existiu.
+    </p>
+    <p>Na prática, olhamos quatro coisas antes de publicar:</p>
+    <ul>
+      <li><b>Histórico de preço.</b> Um item só é chamado de promoção se estiver abaixo da média recente dele. Preço que apenas voltou ao normal não é oferta.</li>
+      <li><b>Voltagem e variação do anúncio.</b> Boa parte das reclamações em eletrodoméstico vem de comprar 220V achando que era 110V. Quando a informação existe, ela vai escrita no card.</li>
+      <li><b>Reputação do vendedor e prazo.</b> Damos preferência a anúncios vendidos ou entregues pela própria Amazon e a vendedores com avaliação consistente.</li>
+      <li><b>Se nós compraríamos.</b> Se o desconto é pequeno ou o produto tem alternativa melhor pelo mesmo valor, deixamos de fora. Volume não vale mais do que a confiança de quem lê.</li>
+    </ul>
+    <p>
+      <b>Sobre preços:</b> de propósito, não fixamos valores nesta página. Preço de e-commerce muda
+      várias vezes ao dia e um número congelado aqui envelheceria em horas, induzindo o leitor ao
+      erro. O valor que vale é sempre o que aparece na página do produto no momento da compra.
+    </p>
+    <p>
+      A curadoria é independente e não tem vínculo com as lojas citadas: ninguém paga para aparecer
+      aqui. A mesma seleção publicada nesta página é distribuída no nosso grupo de WhatsApp e no
+      canal do Telegram, no mesmo dia. Detalhes sobre quem somos e como trabalhamos estão na página
+      <a href="/sobre/">Sobre</a>.
+    </p>
+  </div>
+
+  <div class="disclosure">
+    <p><b>Aviso de afiliação</b></p>
+    <p>
+      Como Associado da Amazon, eu recebo por compras qualificadas. Os links desta página para a
+      Amazon são links de associado: se você comprar por eles, podemos receber uma comissão da
+      Amazon — <b>sem nenhum custo adicional para você</b>, e sem alterar o preço do produto.
+    </p>
+    <p>
+      Este site é independente e não é operado, patrocinado ou endossado pela Amazon. Preços,
+      disponibilidade e condições de entrega são definidos pela Amazon e podem mudar a qualquer
+      momento; confira sempre na página do produto antes de finalizar a compra. Também participamos
+      de programas de afiliados de outras lojas, e isso é sinalizado quando for o caso. Veja a
+      divulgação completa em <a href="/disclosure/">Divulgação de afiliados</a>.
+    </p>
+  </div>
+</main>
+
+<footer>
+  <div class="links">
+    <a href="/guias/">Guias</a>
+    <a href="/reviews/">Análises</a>
+    <a href="/sobre/">Sobre</a>
+    <a href="/faq/">FAQ</a>
+    <a href="/privacidade/">Privacidade</a>
+    <a href="/termos/">Termos</a>
+    <a href="/disclosure/">Divulgação de afiliados</a>
+    <a href="/contato/">Contato</a>
+  </div>
+  Dutr4 Ofertas · Curadoria independente de promoções · Brasil<br>
+  Fale com a gente pelo <a href="https://t.me/primeofertabr">Telegram</a> ou pelo
+  <a href="https://chat.whatsapp.com/JeI0zax1QQcEewb7rTWMft">WhatsApp</a>
+</footer>
+
+</body>
+</html>

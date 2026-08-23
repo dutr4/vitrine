@@ -1,0 +1,147 @@
+:root{
+  --bg-deep:#060b1d;
+  --bg-navy:#0d1636;
+  --surface:#101c42;
+  --surface-2:#132352;
+  --line:#24406e;
+  --blue:#3895e0;
+  --gold:#d4af5a;
+  --gold-light:#e8c882;
+  --text:#f2f4f8;
+  --muted:#93a3c4;
+}
+*{box-sizing:border-box;}
+html,body{ margin:0; }
+body{
+  background:radial-gradient(circle at 50% 0%, var(--bg-navy), var(--bg-deep) 70%);
+  color:var(--text);
+  font-family:'Poppins',Arial,Helvetica,sans-serif;
+  line-height:1.65;
+}
+.circuit{
+  position:fixed; inset:0; z-index:0; opacity:.25; pointer-events:none;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size:60px 60px;
+  -webkit-mask-image:radial-gradient(circle at 50% 20%, black, transparent 75%);
+  mask-image:radial-gradient(circle at 50% 20%, black, transparent 75%);
+}
+.topbar{
+  position:relative; z-index:1; max-width:860px; margin:0 auto; padding:28px 20px 0;
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+}
+.topbar a{ color:var(--blue); text-decoration:none; font-size:14px; font-weight:600; }
+.wordmark{
+  display:inline-block; font-size:19px; font-weight:700;
+  border:1px solid var(--line); border-radius:12px; padding:9px 16px; color:var(--text);
+}
+.wordmark span{ color:var(--gold-light); }
+.nav-links{ display:flex; gap:18px; flex-wrap:wrap; }
+.nav-links a{ color:var(--muted); }
+.nav-links a:hover{ color:var(--text); }
+
+article{ position:relative; z-index:1; max-width:860px; margin:0 auto; padding:26px 20px 60px; }
+.eyebrow{
+  color:var(--blue); letter-spacing:.14em; font-weight:700; font-size:12px;
+  text-transform:uppercase; margin-bottom:10px;
+}
+h1{ font-size:clamp(26px,3.6vw,38px); font-weight:700; margin:0 0 14px; line-height:1.18; }
+.lead{ color:var(--muted); font-size:17px; margin:0 0 30px; }
+.meta{
+  color:var(--muted); font-size:13px; margin:-18px 0 30px; padding-bottom:16px;
+  border-bottom:1px solid var(--line);
+}
+h2{
+  font-size:21px; margin:40px 0 14px; font-weight:700;
+  padding-bottom:10px; border-bottom:1px solid var(--line);
+}
+h3{ font-size:16.5px; margin:26px 0 8px; font-weight:600; color:var(--gold-light); }
+p{ margin:0 0 16px; color:#dfe5f0; }
+ul,ol{ margin:0 0 18px; padding-left:22px; color:#dfe5f0; }
+li{ margin-bottom:9px; }
+b,strong{ color:var(--text); }
+a{ color:var(--blue); }
+
+.callout{
+  background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--gold);
+  border-radius:10px; padding:16px 20px; margin:0 0 22px;
+}
+.callout p:last-child{ margin-bottom:0; }
+.callout .rotulo{
+  display:block; color:var(--gold-light); font-size:11px; letter-spacing:.1em;
+  text-transform:uppercase; font-weight:700; margin-bottom:7px;
+}
+
+table{ width:100%; border-collapse:collapse; margin:0 0 22px; font-size:14.5px; }
+th,td{ padding:11px 13px; text-align:left; border-bottom:1px solid var(--line); }
+th{ color:var(--gold-light); font-weight:700; font-size:12.5px; text-transform:uppercase; letter-spacing:.05em; }
+td{ color:#dfe5f0; }
+.wrap-tabela{ overflow-x:auto; }
+
+/* cards de guias e reviews na home e listagens */
+.grid-cards{ display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:16px; margin:0 0 22px; }
+.card{
+  background:var(--surface); border:1px solid var(--line); border-radius:12px;
+  padding:16px; display:flex; flex-direction:column; gap:9px;
+  transition:transform .15s ease, border-color .15s ease;
+}
+.card:hover{ transform:translateY(-3px); border-color:var(--gold); }
+.card .cat{
+  color:var(--blue); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; font-weight:700;
+}
+.card h3{ margin:0; font-size:15px; font-weight:600; line-height:1.35; color:var(--text); }
+.card p{ color:var(--muted); font-size:13px; margin:0; flex:1; }
+.card a.ler{
+  text-align:center; background:var(--blue); color:#fff; padding:9px 12px;
+  border-radius:8px; text-decoration:none; font-weight:600; font-size:12.5px;
+}
+.card a.ler:hover{ background:#2c7bc4; }
+.card a.ler.ghost{ background:transparent; color:var(--blue); border:1px solid var(--blue); }
+.card a.ler.ghost:hover{ background:rgba(56,149,224,.12); }
+
+/* prós e contras de review */
+.pros-cons{ display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:0 0 22px; }
+.pros-cons .lado{ background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+.pros-cons .lado h4{ margin:0 0 8px; font-size:13px; text-transform:uppercase; letter-spacing:.08em; }
+.pros-cons .pros h4{ color:#6fcf97; }
+.pros-cons .contras h4{ color:#e07a7a; }
+.pros-cons ul{ margin:0; padding-left:18px; font-size:13.5px; }
+.pros-cons li{ margin-bottom:6px; color:#dfe5f0; }
+@media (max-width:640px){ .pros-cons{ grid-template-columns:1fr; } }
+
+/* veredito / box de destaque de review */
+.veredito{
+  background:linear-gradient(140deg, var(--surface-2), #0e1a3d);
+  border:1px solid var(--gold); border-radius:12px; padding:18px 20px; margin:0 0 22px;
+}
+.veredito .rotulo{
+  display:block; color:var(--gold-light); font-size:11px; letter-spacing:.1em;
+  text-transform:uppercase; font-weight:700; margin-bottom:8px;
+}
+.veredito p:last-child{ margin-bottom:0; }
+
+/* FAQ */
+.faq-item{ background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin:0 0 14px; }
+.faq-item h3{ margin:0 0 6px; font-size:15.5px; color:var(--text); }
+.faq-item p{ margin:0; font-size:14.5px; color:#dfe5f0; }
+
+/* páginas legais (privacidade/termos) */
+.legal h2{ font-size:18px; margin:34px 0 12px; }
+.legal p, .legal li{ font-size:14.5px; }
+.legal .atualizado{ color:var(--muted); font-size:13px; }
+
+.disclosure{
+  margin-top:44px; padding:18px 22px; border:1px solid var(--gold); border-radius:12px;
+  color:var(--muted); font-size:13px; background:var(--surface);
+}
+.disclosure b{ color:var(--gold-light); }
+.disclosure p{ margin:0 0 9px; color:var(--muted); }
+.disclosure p:last-child{ margin-bottom:0; }
+
+footer{
+  position:relative; z-index:1; text-align:center; padding:0 20px 50px;
+  color:var(--muted); font-size:13px;
+}
+footer a{ color:var(--blue); text-decoration:none; }
+footer .links{ margin-bottom:8px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
