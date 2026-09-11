@@ -25,6 +25,11 @@ def limpa(t):
     return re.sub(r"\s+", " ", (t or "")).strip()
 
 
+def normaliza(t):
+    """Remove espaços que a Amazon insere no meio dos números ('R$698 , 17')."""
+    return re.sub(r"(\d)\s*,\s*(\d{2})", r"\1,\2", t or "")
+
+
 def valor(t):
     m = re.search(r"R\$\s?([\d\.]+),(\d{2})", t or "")
     return float(f"{m.group(1).replace('.', '')}.{m.group(2)}") if m else None
@@ -47,14 +52,14 @@ def ler(pg, asin):
     for sel in ("#corePriceDisplay_desktop_feature_div", "#apex_desktop", "#buybox", "#price_inside_buybox"):
         e = pg.query_selector(sel)
         if e:
-            blocos.append(limpa(e.inner_text()))
+            blocos.append(normaliza(limpa(e.inner_text())))
     texto = " ".join(blocos)
-    d["preco"] = valor(texto) or (valor(blocos[0]) if blocos else None)
-
-    # preço riscado ("De:") dentro do bloco de preço
-    m = re.search(r"(?:De|de:?)\s*(R\$\s?[\d\.]+,\d{2}).*?(?:R\$\s?[\d\.]+,\d{2})", texto)
-    if m:
-        d["preco_referencia"] = valor(m.group(1))
+    # Layout real do bloco: "R$ 698,17 com 19 por cento de desconto -19% R$698 , 17
+    # De: R$ 865,56 ..." -> o PRIMEIRO valor é o preço a pagar e o riscado vem
+    # ancorado em "De:". Não dependemos da ordem relativa dos dois.
+    d["preco"] = valor(texto)
+    m = re.search(r"De:?\s*(R\$\s?[\d\.]+,\d{2})", texto)
+    d["preco_referencia"] = valor(m.group(1)) if m else None
     if d["preco_referencia"] and d["preco"] and d["preco_referencia"] <= d["preco"]:
         d["preco_referencia"] = None
 
@@ -63,11 +68,14 @@ def ler(pg, asin):
 
     el = pg.query_selector("#availability") or pg.query_selector("#outOfStock")
     disp = limpa(el.inner_text()) if el else ""
+    # Aviso explicito de indisponibilidade e o unico sinal que reprova a oferta.
+    # "Compra única" / outros vendedores NAO significa indisponivel: o botao de
+    # compra continua ativo no anuncio em destaque.
+    fora = bool(re.search(r"indispon|fora de estoque", disp, re.I))
     compra = pg.query_selector("#add-to-cart-button") is not None
-    terceiros = pg.query_selector("#buybox-see-all-buying-choices") is not None
-    d["disponivel"] = bool(compra) and not terceiros
+    d["disponivel"] = bool(compra) and not fora
     if not d["disponivel"]:
-        d["motivo"] = f"sem botao de compra (availability={disp[:40]!r})"
+        d["motivo"] = f"sem botao de compra (availability={disp[:40]!r})" if not fora else "fora de estoque"
     elif not d["preco"]:
         d["disponivel"] = False
         d["motivo"] = "sem preco legivel"
