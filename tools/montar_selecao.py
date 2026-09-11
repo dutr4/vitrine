@@ -12,6 +12,9 @@ import os
 import sys
 from collections import defaultdict
 
+# Diretorio de trabalho (arquivos intermediarios). Sobrescreva com VITRINE_WORK.
+WORK = os.environ.get("VITRINE_WORK", "/tmp")
+
 BASE = "/mnt/c/Users/dutr4/Documents/vitrine-local/vitrine.dutr4.com.br/tools"
 
 
@@ -25,9 +28,9 @@ def carregar_mod(nome, caminho):
 curar = carregar_mod("curar", f"{BASE}/curar_ofertas.py")
 
 POR_CAT = int(sys.argv[1]) if len(sys.argv) > 1 else 18
-BRUTO = "/tmp/ofertas_busca.json"
-VERIF = "/tmp/selecao_verificada.json"
-SAIDA = "/tmp/selecao_final.json"
+BRUTO = f"{WORK}/ofertas_busca.json"
+VERIF = f"{WORK}/selecao_verificada.json"
+SAIDA = f"{WORK}/selecao_final.json"
 
 verif = json.load(open(VERIF, encoding="utf-8"))["ofertas"]
 por_asin = {o["asin"]: o for o in verif}

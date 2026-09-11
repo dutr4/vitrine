@@ -17,10 +17,11 @@ spec = importlib.util.spec_from_file_location("col", os.path.join(RAIZ, "tools",
 col = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(col)
 TZ = timezone(timedelta(hours=-3))
+PAUSA_PADRAO = float(os.environ.get("VITRINE_PAUSA", "6"))
 
 
 def main() -> None:
-    pausa = float(sys.argv[1]) if len(sys.argv) > 1 else 6.0
+    pausa = float(sys.argv[1]) if len(sys.argv) > 1 else PAUSA_PADRAO
     d = json.load(open(DESTAQUES, encoding="utf-8"))
     itens = d["itens"]
     pendentes = [i for i in itens if not (i.get("preco") and i.get("disponivel"))]

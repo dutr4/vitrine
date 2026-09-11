@@ -14,9 +14,12 @@ import json
 import os
 import unicodedata
 
+# Diretorio de trabalho (arquivos intermediarios). Sobrescreva com VITRINE_WORK.
+WORK = os.environ.get("VITRINE_WORK", "/tmp")
+
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DESTAQUES = os.path.join(RAIZ, "dados", "destaques.json")
-SELECAO = "/tmp/selecao_verificada.json"
+SELECAO = f"{WORK}/selecao_verificada.json"
 SAIDA = os.path.join(RAIZ, "dados", "ofertas.json")
 
 MAPA_CAT = {
@@ -103,8 +106,8 @@ def main() -> None:
     # Avaliacoes/estrelas: o card da busca (listagem) e mais confiavel que a pagina
     # do produto. Restaura os valores da busca para cada ASIN.
     brutos = {}
-    if os.path.exists("/tmp/ofertas_busca.json"):
-        for b in json.load(open("/tmp/ofertas_busca.json", encoding="utf-8"))["ofertas"]:
+    if os.path.exists(f"{WORK}/ofertas_busca.json"):
+        for b in json.load(open(f"{WORK}/ofertas_busca.json", encoding="utf-8"))["ofertas"]:
             brutos.setdefault(b["asin"], b)
 
 

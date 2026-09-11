@@ -1,8 +1,12 @@
 """Curadoria: filtra o pool bruto e monta a selecao por categoria."""
-import json, re, unicodedata
+import json
+import os, re, unicodedata
 from collections import defaultdict
 
-RAW = "/tmp/ofertas_busca.json"
+# Diretorio de trabalho (arquivos intermediarios). Sobrescreva com VITRINE_WORK.
+WORK = os.environ.get("VITRINE_WORK", "/tmp")
+
+RAW = f"{WORK}/ofertas_busca.json"
 
 CATEGORIAS = {
     "Cozinha": [

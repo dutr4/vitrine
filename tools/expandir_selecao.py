@@ -6,8 +6,12 @@ Uso: python3 expandir_selecao.py [por_categoria]
 """
 import importlib.util
 import json
+import os
 import sys
 from collections import defaultdict
+
+# Diretorio de trabalho (arquivos intermediarios). Sobrescreva com VITRINE_WORK.
+WORK = os.environ.get("VITRINE_WORK", "/tmp")
 
 BASE = "/mnt/c/Users/dutr4/Documents/vitrine-local/vitrine.dutr4.com.br/tools"
 
@@ -22,8 +26,8 @@ def carregar_mod(nome, caminho):
 curar = carregar_mod("curar", f"{BASE}/curar_ofertas.py")
 
 POR_CAT = int(sys.argv[1]) if len(sys.argv) > 1 else 15
-VERIFICADA = "/tmp/selecao_verificada.json"
-BRUTO = "/tmp/ofertas_busca.json"
+VERIFICADA = f"{WORK}/selecao_verificada.json"
+BRUTO = f"{WORK}/ofertas_busca.json"
 
 ver = json.load(open(VERIFICADA, encoding="utf-8"))
 atuais = {o["asin"] for o in ver["ofertas"]}

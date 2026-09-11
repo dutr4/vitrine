@@ -18,14 +18,19 @@ import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
 
+# Diretorio de trabalho (arquivos intermediarios). Sobrescreva com VITRINE_WORK.
+WORK = os.environ.get("VITRINE_WORK", "/tmp")
+# Pausa entre requisicoes a Amazon (segundos). No cron use 3 para ser conservador.
+PAUSA = float(os.environ.get("VITRINE_PAUSA", "1.5"))
+
 BASE = "/mnt/c/Users/dutr4/Documents/vitrine-local/vitrine.dutr4.com.br/tools"
 spec = importlib.util.spec_from_file_location("col", f"{BASE}/coletar_ofertas.py")
 col = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(col)
 
 TZ = timezone(timedelta(hours=-3))
-ENTRADA = "/tmp/selecao.json"
-SAIDA = "/tmp/selecao_verificada.json"
+ENTRADA = f"{WORK}/selecao.json"
+SAIDA = f"{WORK}/selecao_verificada.json"
 
 
 def tokens(txt: str) -> set[str]:
@@ -132,7 +137,7 @@ def main() -> None:
         print(f"  [{feitos}] {o['asin']}: R${o['preco']:.2f} "
               f"{'de R$%.2f' % o['preco_referencia'] if o['preco_referencia'] else 'sem ref'} "
               f"| {flag} | {info['titulo'][:40]}", file=sys.stderr)
-        time.sleep(1.5)
+        time.sleep(PAUSA)
 
     salvar(ofertas)
     ok = [o for o in ofertas if o.get("verificado_em") and o["verificado_em"] != "FALHA_FETCH" and not o.get("descartar")]
