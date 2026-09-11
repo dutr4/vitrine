@@ -10,12 +10,13 @@ import importlib.util
 import json
 import os
 import sys
+from datetime import datetime, timedelta
 from collections import defaultdict
 
 # Diretorio de trabalho (arquivos intermediarios). Sobrescreva com VITRINE_WORK.
 WORK = os.environ.get("VITRINE_WORK", "/tmp")
 
-BASE = "/mnt/c/Users/dutr4/Documents/vitrine-local/vitrine.dutr4.com.br/tools"
+BASE = os.path.dirname(os.path.abspath(__file__))
 
 
 def carregar_mod(nome, caminho):
@@ -28,6 +29,8 @@ def carregar_mod(nome, caminho):
 curar = carregar_mod("curar", f"{BASE}/curar_ofertas.py")
 
 POR_CAT = int(sys.argv[1]) if len(sys.argv) > 1 else 18
+# Ofertas conferidas ha mais que isso voltam para a fila de verificacao.
+REVALIDAR_HORAS = int(os.environ.get("VITRINE_REVALIDAR_HORAS", "12"))
 BRUTO = f"{WORK}/ofertas_busca.json"
 VERIF = f"{WORK}/selecao_verificada.json"
 SAIDA = f"{WORK}/selecao_final.json"
@@ -49,7 +52,17 @@ for o in verif:
         if curar.bloqueado(o.get("titulo_produto") or o.get("titulo", "")):
             descartados.add(o["asin"])
             continue
-        validos.append(o)
+        # preco velho nao serve: limpa o carimbo para o verificador reconferir
+        velho = o
+        v = o.get("verificado_em")
+        try:
+            dt = datetime.fromisoformat(v)
+            if (datetime.now(dt.tzinfo) - dt).total_seconds() > REVALIDAR_HORAS * 3600:
+                velho = {k: val for k, val in o.items() if k != "verificado_em"}
+                print(f"  reagendar conferencia: {o['asin']} (conferida em {v[:16]})")
+        except (ValueError, TypeError):
+            velho = {k: val for k, val in o.items() if k != "verificado_em"}
+        validos.append(velho)
 print(f"  validos ja verificados: {len(validos)} | descartados (lista negra): {len(descartados)}")
 
 # 2) candidatos novos do pool bruto

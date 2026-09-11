@@ -90,6 +90,18 @@ def guia_para(oferta: dict, categoria: str) -> tuple[str, str]:
     return GUIA_CATEGORIA.get(categoria, ("/guias/desconto-real/", "Guia: como saber se o desconto é real"))
 
 
+def data_conferencia(o: dict, padrao: str) -> str:
+    """Data/hora da conferencia daquela oferta (fallback: a mais recente do lote)."""
+    v = o.get("verificado_em")
+    if not v or v == "FALHA_FETCH":
+        return padrao
+    try:
+        dt = datetime.fromisoformat(v).astimezone(TZ_BR)
+        return dt.strftime("%d/%m/%Y às %Hh%M")
+    except (ValueError, TypeError):
+        return padrao
+
+
 def cartao(o: dict, tag: str, margem_data: str) -> str:
     asin = o["asin"]
     titulo = encurtar(o.get("titulo_produto") or o.get("titulo") or "")
@@ -127,7 +139,7 @@ def cartao(o: dict, tag: str, margem_data: str) -> str:
     if o.get("nota"):
         partes.append(f'      <p class="note">{o["nota"]}</p>')
 
-    partes.append(f'      <p class="verified">Preço conferido em {margem_data}</p>')
+    partes.append(f'      <p class="verified">Preço conferido em {data_conferencia(o, margem_data)}</p>')
     partes.append(
         f'      <a class="buy" href="{url}" rel="nofollow sponsored" target="_blank" '
         f'rel="noopener">Ver oferta na Amazon</a>'

@@ -13,7 +13,7 @@ from collections import defaultdict
 # Diretorio de trabalho (arquivos intermediarios). Sobrescreva com VITRINE_WORK.
 WORK = os.environ.get("VITRINE_WORK", "/tmp")
 
-BASE = "/mnt/c/Users/dutr4/Documents/vitrine-local/vitrine.dutr4.com.br/tools"
+BASE = os.path.dirname(os.path.abspath(__file__))
 
 
 def carregar_mod(nome, caminho):

@@ -23,7 +23,7 @@ WORK = os.environ.get("VITRINE_WORK", "/tmp")
 # Pausa entre requisicoes a Amazon (segundos). No cron use 3 para ser conservador.
 PAUSA = float(os.environ.get("VITRINE_PAUSA", "1.5"))
 
-BASE = "/mnt/c/Users/dutr4/Documents/vitrine-local/vitrine.dutr4.com.br/tools"
+BASE = os.path.dirname(os.path.abspath(__file__))
 spec = importlib.util.spec_from_file_location("col", f"{BASE}/coletar_ofertas.py")
 col = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(col)
