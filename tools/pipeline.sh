@@ -1,6 +1,14 @@
 #!/bin/bash
-# Atualizacao da vitrine: coleta, verifica, consolida, gera, valida e publica.
-# Uso: bash tools/pipeline.sh [--sem-deploy]
+# Atualizacao da vitrine: coleta, verifica, gera, valida e publica.
+#
+# Modos:
+#   completo   (padrao) coleta candidatos, verifica, consolida, gera e publica.
+#              Rodada pesada: 2x/dia.
+#   publicados rodada leve: reconfere SO as ofertas que ja estao no ar (atualiza
+#              preco, remove oferta vencida). Roda a cada 2h para a vitrine nunca
+#              exibir preco velho.
+#
+# Uso: bash tools/pipeline.sh [completo|publicados] [--sem-deploy]
 #
 # Roda na VM do DEV (IP residencial, sem rate-limit severo) ou localmente.
 # Publica na Oracle por SSH/rsync e (se configurado) faz commit+push no GitHub.
@@ -13,8 +21,15 @@ export VITRINE_WORK="${VITRINE_WORK:-$HOME/.vitrine-work}"
 export VITRINE_PAUSA="${VITRINE_PAUSA:-3}"
 mkdir -p "$VITRINE_WORK"
 
+MODO="completo"
 DEPLOY=1
-[ "${1:-}" = "--sem-deploy" ] && DEPLOY=0
+for arg in "$@"; do
+  case "$arg" in
+    completo|publicados) MODO="$arg" ;;
+    --sem-deploy) DEPLOY=0 ;;
+    *) echo "argumento desconhecido: $arg"; exit 2 ;;
+  esac
+done
 
 LOG="$VITRINE_WORK/pipeline.log"
 log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
@@ -32,29 +47,35 @@ QUERIES=(
   "furadeira" "parafusadeira"
 )
 
-log "===== INICIO ====="
+log "===== INICIO (modo $MODO) ====="
 
 # 0) sincroniza o repo (se for clone git)
 if [ -d .git ]; then
   git pull --rebase --quiet 2>&1 | tee -a "$LOG" || log "aviso: git pull falhou (seguindo)"
 fi
 
-# 1) coleta de candidatos
-log "coletando candidatos (${#QUERIES[@]} buscas)..."
-python3 tools/coletar_ofertas.py busca "$VITRINE_WORK/ofertas_busca.json" "${QUERIES[@]}" 2>&1 | tail -3 | tee -a "$LOG"
+if [ "$MODO" = "publicados" ]; then
+  # rodada leve: reconfere as ofertas que ja estao no ar
+  log "modo publicados: reconferindo as ofertas publicadas..."
+  python3 tools/refrescar_publicados.py 2>&1 | tail -14 | tee -a "$LOG"
+else
+  # 1) coleta de candidatos
+  log "coletando candidatos (${#QUERIES[@]} buscas)..."
+  python3 tools/coletar_ofertas.py busca "$VITRINE_WORK/ofertas_busca.json" "${QUERIES[@]}" 2>&1 | tail -3 | tee -a "$LOG"
 
-# 2) seleção (reaplica filtros, mantém o que já foi verificado, completa por categoria)
-log "montando seleção..."
-python3 tools/montar_selecao.py 18 2>&1 | tail -8 | tee -a "$LOG"
+  # 2) seleção (reaplica filtros, mantém o que já foi verificado, completa por categoria)
+  log "montando seleção..."
+  python3 tools/montar_selecao.py 18 2>&1 | tail -8 | tee -a "$LOG"
 
-# 3) verificação na página do produto (preço/disponibilidade reais)
-log "verificando ofertas na Amazon..."
-python3 tools/verificar_ofertas.py 90 2>&1 | tail -4 | tee -a "$LOG"
-python3 tools/verificar_destaques.py 6 2>&1 | tail -3 | tee -a "$LOG"
+  # 3) verificação na página do produto (preço/disponibilidade reais)
+  log "verificando ofertas na Amazon..."
+  python3 tools/verificar_ofertas.py 90 2>&1 | tail -4 | tee -a "$LOG"
+  python3 tools/verificar_destaques.py 6 2>&1 | tail -3 | tee -a "$LOG"
 
-# 4) consolidação (destaques + coletadas, com filtros de qualidade)
-log "consolidando..."
-python3 tools/consolidar.py 2>&1 | tail -12 | tee -a "$LOG"
+  # 4) consolidação (destaques + coletadas, com filtros de qualidade)
+  log "consolidando..."
+  python3 tools/consolidar.py 2>&1 | tail -12 | tee -a "$LOG"
+fi
 
 # 5) geração da seção de ofertas
 log "gerando o site..."
