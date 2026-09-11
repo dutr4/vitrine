@@ -58,6 +58,15 @@ if [ "$MODO" = "publicados" ]; then
   # rodada leve: reconfere as ofertas que ja estao no ar
   log "modo publicados: reconferindo as ofertas publicadas..."
   python3 tools/refrescar_publicados.py 2>&1 | tail -14 | tee -a "$LOG"
+  RC_REFRESH=${PIPESTATUS[0]}
+  if [ "$RC_REFRESH" = "2" ]; then
+    log "refresh abortado: leituras falharam em massa (bloqueio do IP ou rede) — nada publicado"
+    exit 0
+  fi
+  if [ "$RC_REFRESH" != "0" ]; then
+    log "refresh terminou com erro ($RC_REFRESH) — nada publicado"
+    exit 1
+  fi
 else
   # 1) coleta de candidatos
   log "coletando candidatos (${#QUERIES[@]} buscas)..."

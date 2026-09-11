@@ -235,13 +235,24 @@ def info_produto(asin: str) -> dict | None:
     if not titulo:
         return None
 
-    # preco principal: label de acessibilidade do bloco apex (mobile)
-    m_p = _RE_PRECO_MOBILE.search(html)
-    preco = _preco_br(m_p.group(1)) if m_p else None
+    # PRECO: apenas fontes escopadas e inequivocas.
+    # NUNCA usar "menor preco da pagina": paginas degradadas/bloqueadas misturam
+    # precos de acessorios e produtos relacionados, e isso ja produziu preco errado.
+    preco = None
+    m_p = _RE_PRECO_MOBILE.search(html)          # label de acessibilidade do bloco apex
+    if m_p:
+        preco = _preco_br(m_p.group(1))
     if preco is None:
-        cands = [_preco_br(p) for p in _RE_PRICE_OFFSCREEN.findall(html)]
-        cands = [c for c in cands if c]
-        preco = min(cands) if cands else None
+        m_p = re.search(r'id="price_inside_buybox"[^>]*>\s*R\$\s*([\d\.]+,?\d*)', html)
+        if m_p:
+            preco = _preco_br(m_p.group(1))
+    if preco is None:
+        m_p = re.search(
+            r'id="buybox"[^>]*>(?:(?!id="buybox").){0,4000}?class="a-offscreen">\s*R\$\s*([\d\.]+,?\d*)',
+            html, re.S,
+        )
+        if m_p:
+            preco = _preco_br(m_p.group(1))
 
     # preco de referencia (riscado), quando existir
     m_r = re.search(
@@ -270,9 +281,18 @@ def info_produto(asin: str) -> dict | None:
         imagem = re.sub(r"_AC_UF\d+,\d+_QL\d+_", "_AC_UF500,500_QL80_", imagem)
         imagem = re.sub(r"\._AC_[A-Z0-9,_]+_\.", "._AC_UF500,500_QL80_.", imagem)
 
+    # DISPONIBILIDADE: exige indicio positivo e escopado (evita marcar como
+    # indisponivel so porque a pagina veio degradada).
     indisponivel = bool(_RE_INDISPONIVEL.search(html))
     tem_botao = bool(_RE_ADD_CART.search(html))
     disponivel = tem_botao and not indisponivel
+    if not preco and not indisponivel:
+        # pagina sem preco e sem aviso de indisponibilidade: leitura nao confiavel
+        indisponivel = False
+        disponivel = False
+        motivo = "leituras ausentes (pagina degradada?)"
+    else:
+        motivo = None if disponivel else ("sem botao de compra" if not indisponivel else "fora de estoque")
 
     return {
         "asin": asin,
@@ -280,7 +300,7 @@ def info_produto(asin: str) -> dict | None:
         "preco": preco,
         "preco_referencia": referencia,
         "disponivel": disponivel,
-        "indisponivel_motivo": (None if disponivel else ("sem botao de compra" if not indisponivel else "fora de estoque")),
+        "indisponivel_motivo": motivo,
         "estrelas": float(estrelas.group(1).replace(",", ".")) if estrelas else None,
         "avaliacoes": int(avaliacoes.group(1).replace(".", "")) if avaliacoes else None,
         "imagem": imagem,
