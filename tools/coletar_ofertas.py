@@ -197,7 +197,6 @@ _RE_PRECO_MOBILE = re.compile(
     r'id="apex-pricetopay-accessibility-label"[^>]*>\s*R\$\s*([\d\.]+,?\d*)'
 )
 _RE_ADD_CART = re.compile(r'name="submit\.add-to-cart"|id="add-to-cart-button"')
-_RE_SAVINGS = re.compile(r'(?:savingsPercentage|percentual de economia)[^0-9]{0,40}(\d{1,2})\s*%')
 _RE_ESTRELAS = re.compile(r'([\d,]{1,3})\s*de\s*5\s*estrelas')
 # Avaliacoes: escopar no bloco canonico (fora dele vem numero de outro produto)
 _RE_AVALIACOES = re.compile(r'([\d\.]+)\s*avalia[çc][õo]es')
@@ -210,7 +209,6 @@ _RE_INDISPONIVEL = re.compile(
     r"Atualmente indispon[íi]vel|Currently unavailable",
     re.I,
 )
-_RE_ESTOQUE = re.compile(r"Em estoque|em estoque", re.I)
 
 
 def _preco_br(txt: str) -> float | None:
