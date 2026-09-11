@@ -129,6 +129,27 @@
   }
   footer a{ color:var(--blue); text-decoration:none; }
   footer .links{ display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-bottom:8px; }
+  .card{ position:relative; }
+  .thumb{
+    background:linear-gradient(140deg, var(--surface-2), #0e1a3d); border:1px solid var(--line);
+    border-radius:10px; height:150px; display:flex; align-items:center; justify-content:center; padding:10px;
+  }
+  .thumb img{ max-height:130px; max-width:100%; object-fit:contain; }
+  .cat-chip{ color:var(--muted); font-size:10px; letter-spacing:.12em; text-transform:uppercase; font-weight:700; }
+  .card h3{ display:-webkit-box; -webkit-line-clamp:3; line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .price-row{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+  .price-was{ color:var(--muted); font-size:12.5px; text-decoration:line-through; }
+  .price-now{ color:var(--gold-light); font-size:19px; font-weight:700; }
+  .price-off{ background:rgba(56,149,224,.16); color:var(--blue); font-size:12px; font-weight:700; padding:2px 8px; border-radius:999px; }
+  .rating{ color:var(--muted); font-size:12px; margin:0; }
+  .selo{ color:var(--blue); font-size:12px; margin:0; font-weight:600; }
+  .verified{ color:#6b7a99; font-size:11px; margin:0; }
+  .aviso-precos{
+    margin:26px 0 0; padding:16px 20px; border:1px solid var(--line);
+    border-left:3px solid var(--gold); border-radius:12px; background:var(--surface);
+  }
+  .aviso-precos p{ margin:0; color:var(--muted); font-size:13.5px; }
+  .aviso-precos a{ color:var(--blue); }
 </style>
 </head>
 <body>
@@ -158,105 +179,499 @@
 
 <main>
 
+  <!-- OFERTAS:INICIO — gerado por tools/gerar_site.py em 11/09/2026 13:00. NÃO editar à mão: rode o gerador.] -->
+  <div class="aviso-precos">
+    <p><b>45 ofertas com desconto real</b>, conferidas uma por uma na Amazon em <b>11/09/2026 às 13h00</b> — preço abaixo do preço de referência, item disponível e anúncio do mesmo produto conferido. Preços e estoque mudam a qualquer momento: confira o valor final na página do produto. Veja <a href="/como-verificamos/">como verificamos</a> e o que acontece com <a href="/como-verificamos/#vencida">oferta vencida</a>.</p>
+  </div>
+
   <div class="section-title">
-    <h2>Cozinha</h2><div class="bar"></div>
-    <span class="updated">Seleção de agosto/2026</span>
+    <h2>🍳 Cozinha</h2><div class="bar"></div>
+    <span class="updated">13 ofertas conferidas</span>
   </div>
   <div class="grid">
-
-    <div class="card">
-      <div class="tile"><div class="glyph">🍳</div><div class="cat">Cozinha</div></div>
-      <h3>Philips Walita Fritadeira Airfryer Série 1000 4,2L, 12 funções, Preta (NA120/00)</h3>
-      <p class="note">Modelo de entrada da linha. A cuba de 4,2 L atende bem duas a três pessoas; para famílias maiores vale olhar as versões de 6 L. <b>Atenção:</b> este anúncio é a versão <b>110V</b>.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B0F6YRL42F?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/reviews/philips-airfryer-1000/">Ler a análise completa</a>
+    <div class="card" data-asin="B0CH5L6V3Q">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61wSZ93u49L._AC_UF500,500_QL80_.jpg" alt="WAP Fritadeira Elétrica Air Fryer FAMILY 4 Litros, Temperatura Ajustáv" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>WAP Fritadeira Elétrica Air Fryer FAMILY 4 Litros, Temperatura Ajustável…</h3>
+      <div class="price-row"><span class="price-was">de R$ 455,53</span><span class="price-now">por R$ 220,38</span><span class="price-off">-52%</span></div>
+      <p class="rating">4.6 de 5 em 376 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0CH5L6V3Q?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/air-fryer-funcoes/">Guia: o que cada função da air fryer faz</a>
     </div>
-
-    <div class="card">
-      <div class="tile"><div class="glyph">🍟</div><div class="cat">Cozinha</div></div>
-      <h3>Air Fryer Philco 6,5L Visor Glass 1700W PAF65</h3>
-      <p class="note">Cuba grande, de 6,5 L, com visor de vidro — dá para acompanhar o preparo sem interromper o ciclo. <b>Atenção:</b> este anúncio é a versão <b>220V</b>.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B0F99ZZV44?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/reviews/philco-paf65/">Ler a análise completa</a>
+    <div class="card" data-asin="B09N5G6DGX">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/715Fs-3Vm5L._AC_UF500,500_QL80_.jpg" alt="MONDIAL Cafeteira Elétrica Dolce Arome, 220V, 550W, Preto/Inox - C-43-" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>MONDIAL Cafeteira Elétrica Dolce Arome, 220V, 550W, Preto/Inox - C-43-20X-SI | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 229,90</span><span class="price-now">por R$ 113,00</span><span class="price-off">-51%</span></div>
+      <p class="rating">4.6 de 5 em 725 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B09N5G6DGX?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
     </div>
-
-    <div class="card">
-      <div class="tile"><div class="glyph">🍞</div><div class="cat">Cozinha</div></div>
-      <h3>Panificadora Automática Master Bread Mondial 700W (NPF-53)</h3>
+    <div class="card" data-asin="B0C5YCW65C">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51Ipo8gLZxL._AC_UF500,500_QL80_.jpg" alt="Batedeira Planetária Oster Black III, OBAT640, 110v | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Batedeira Planetária Oster Black III, OBAT640, 110v | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 579,90</span><span class="price-now">por R$ 309,11</span><span class="price-off">-47%</span></div>
+      <p class="rating">4.7 de 5 em 385 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0C5YCW65C?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0F4G5L639">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61iQo0VNuSL._AC_UF500,500_QL80_.jpg" alt="Liquidificador Arno Power Mix 700W LQ19, Preto, Jarra de 2,4L…" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Liquidificador Arno Power Mix 700W LQ19, Preto, Jarra de 2,4L…</h3>
+      <div class="price-row"><span class="price-was">de R$ 199,99</span><span class="price-now">por R$ 110,57</span><span class="price-off">-45%</span></div>
+      <p class="rating">4.2 de 5 em 261 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0F4G5L639?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B08JZCNYZV">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51I3P1k2o3L._AC_UF500,500_QL80_.jpg" alt="Philco Liquidificador PLQ1350 Turbo Glass 127V | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Philco Liquidificador PLQ1350 Turbo Glass 127V | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 339,00</span><span class="price-now">por R$ 189,90</span><span class="price-off">-44%</span></div>
+      <p class="rating">4.3 de 5 em 511 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B08JZCNYZV?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B08K1B2NHM">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51LYXnyywSL._AC_UF500,500_QL80_.jpg" alt="Britânia Batedeira Planetaria BBP760P Power Plus Turbo 127 V | Amazon." loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Britânia Batedeira Planetaria BBP760P Power Plus Turbo 127 V | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 476,24</span><span class="price-now">por R$ 269,91</span><span class="price-off">-43%</span></div>
+      <p class="rating">4.5 de 5 em 479 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B08K1B2NHM?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0D98FM9KP">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51ddQ2FJr-L._AC_UF500,500_QL80_.jpg" alt="MONDIAL Liquidificador Pratic Turbo, Preto, 550W, 110V - L-98-B | Amaz" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>MONDIAL Liquidificador Pratic Turbo, Preto, 550W, 110V - L-98-B | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 154,90</span><span class="price-now">por R$ 90,11</span><span class="price-off">-42%</span></div>
+      <p class="rating">4.6 de 5 em 355 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0D98FM9KP?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0FRHHNVLV">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51zqocFSQSL._AC_UF500,500_QL80_.jpg" alt="Electrolux Air Fryer Oven Electrolux por Rita Lobo 12L Digital Grafite" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Electrolux Air Fryer Oven Electrolux por Rita Lobo 12L Digital Grafite Experience 1700W…</h3>
+      <div class="price-row"><span class="price-was">de R$ 879,90</span><span class="price-now">por R$ 521,91</span><span class="price-off">-41%</span></div>
+      <p class="rating">4.7 de 5 em 356 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0FRHHNVLV?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/air-fryer-funcoes/">Guia: o que cada função da air fryer faz</a>
+    </div>
+    <div class="card" data-asin="B0CWLN6BQF">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/515I8adwatL._AC_UF500,500_QL80_.jpg" alt="Britânia Cafeteira BCF19 Inox 18 Cafezinhos Jarra de Vidro 550W 127V |" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Britânia Cafeteira BCF19 Inox 18 Cafezinhos Jarra de Vidro 550W 127V | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 152,00</span><span class="price-now">por R$ 103,55</span><span class="price-off">-32%</span></div>
+      <p class="rating">4.5 de 5 em 836 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0CWLN6BQF?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0B5YSQ8TJ">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51+Eg-ziV1L._AC_UF500,500_QL80_.jpg" alt="Batedeira planetária Electrolux potente capacidade 5L 750W 12 velocida" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Batedeira planetária Electrolux potente capacidade 5L 750W 12 velocidades tigela inox…</h3>
+      <div class="price-row"><span class="price-was">de R$ 779,90</span><span class="price-now">por R$ 529,90</span><span class="price-off">-32%</span></div>
+      <p class="rating">4.6 de 5 em 643 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0B5YSQ8TJ?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0DY3G3MJW">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51TMCXmRIdL._AC_UF500,500_QL80_.jpg" alt="Air Fryer Philco 4L Revestimento Redstone 1500W PAF40A 220V" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Air Fryer Philco 4L Revestimento Redstone 1500W PAF40A 220V</h3>
+      <div class="price-row"><span class="price-was">de R$ 357,00</span><span class="price-now">por R$ 248,01</span><span class="price-off">-31%</span></div>
+      <p class="rating">4.8 de 5 em 679 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0DY3G3MJW?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/air-fryer-funcoes/">Guia: o que cada função da air fryer faz</a>
+    </div>
+    <div class="card" data-asin="B076XC1QX7">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/41KuuCLPAJL._AC_UF500,500_QL80_.jpg" alt="Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e F" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor…</h3>
+      <div class="price-row"><span class="price-was">de R$ 999,00</span><span class="price-now">por R$ 711,54</span><span class="price-off">-29%</span></div>
+      <p class="rating">4.7 de 5 em 891 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B076XC1QX7?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B07L8X97SR">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51OmxaZFbNL._AC_UF500,500_QL80_.jpg" alt="Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Cozinha</div>
+      <h3>Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF-53 | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 749,90</span><span class="price-now">por R$ 536,28</span><span class="price-off">-28%</span></div>
+      <p class="rating">4.6 de 5 em 1 avaliações na Amazon</p>
       <p class="note">Faz o ciclo completo, da mistura ao assado, sem acompanhamento. Boa porta de entrada para quem quer testar pão caseiro. Versão <b>220V</b>.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B07L8X97SR?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/reviews/mondial-npf-53/">Ler a análise completa</a>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B07L8X97SR?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/panificadora/">Guia: panificadora vale a pena?</a>
     </div>
-
-    <div class="card">
-      <div class="tile"><div class="glyph">🧊</div><div class="cat">Utilidades</div></div>
-      <h3>Bolsa Térmica Lancheira Grande com compartimentos duplos e alça ajustável</h3>
-      <p class="note">Dois compartimentos e revestimento impermeável. Serve para marmita de trabalho e academia — o tipo de item barato que costuma ter desconto agressivo em data comemorativa.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B0H5LC7NSC?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-    </div>
-
   </div>
 
   <div class="section-title">
-    <h2>Eletrodomésticos</h2><div class="bar"></div>
+    <h2>🧺 Lavanderia</h2><div class="bar"></div>
+    <span class="updated">5 ofertas conferidas</span>
   </div>
   <div class="grid">
-
-    <div class="card">
-      <div class="tile"><div class="glyph">❄️</div><div class="cat">Refrigeração</div></div>
-      <h3>Frigobar Eos Ice Compact 47L Branco (EFB50)</h3>
-      <p class="note">Porte de quarto, escritório ou área gourmet. 47 L é o suficiente para bebidas e alguns itens do dia; não substitui geladeira. Versão <b>110V</b>.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B0C9DY8FVL?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/guias/frigobar/">Guia: como escolher o tamanho certo</a>
+    <div class="card" data-asin="B09B8VWZRG">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/41cbbClO-jL._AC_UF500,500_QL80_.jpg" alt="Máquina de Lavar Electrolux 17kg Branca Essential Care com Cesto Inox " loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Lavanderia</div>
+      <h3>Máquina de Lavar Electrolux 17kg Branca Essential Care com Cesto Inox e Jet&amp;Clean (LED17)…</h3>
+      <div class="price-row"><span class="price-was">de R$ 3.249,00</span><span class="price-now">por R$ 2.419,90</span><span class="price-off">-26%</span></div>
+      <p class="rating">4.7 de 5 em 444 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B09B8VWZRG?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/110v-220v/">Guia: 110V ou 220V, como não errar</a>
     </div>
+    <div class="card" data-asin="B0FNRSLDZ3">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51JXDiGkNLL._AC_UF500,500_QL80_.jpg" alt="Lavadora de Roupas Midea Slim 11kg HealthGuard Smart Inverter Água Fri" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Lavanderia</div>
+      <h3>Lavadora de Roupas Midea Slim 11kg HealthGuard Smart Inverter Água Fria e Quente Titanium…</h3>
+      <div class="price-row"><span class="price-was">de R$ 3.939,00</span><span class="price-now">por R$ 2.899,00</span><span class="price-off">-26%</span></div>
+      <p class="rating">4.7 de 5 em 86 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0FNRSLDZ3?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/lavadora/">Guia: qual lavadora para a sua casa</a>
+    </div>
+    <div class="card" data-asin="B0D9YS13X6">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51Yb5tekSxL._AC_UF500,500_QL80_.jpg" alt="Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Inox 11k" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Lavanderia</div>
+      <h3>Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Inox 11kg 127V | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 3.893,68</span><span class="price-now">por R$ 3.134,05</span><span class="price-off">-20%</span></div>
+      <p class="rating">4.8 de 5 em 119 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0D9YS13X6?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/lavadora/">Guia: qual lavadora para a sua casa</a>
+    </div>
+    <div class="card" data-asin="B0D9YTXRB7">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51Hw5cBatiL._AC_UF500,500_QL80_.jpg" alt="Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 1" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Lavanderia</div>
+      <h3>Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 220V…</h3>
+      <div class="price-row"><span class="price-was">de R$ 3.577,89</span><span class="price-now">por R$ 2.849,05</span><span class="price-off">-20%</span></div>
+      <p class="rating">4.6 de 5 em 114 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0D9YTXRB7?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/lavadora/">Guia: qual lavadora para a sua casa</a>
+    </div>
+    <div class="card" data-asin="B00HGNXC8Q">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61gXZ2VqfdL._AC_UF500,500_QL80_.jpg" alt="Máquina de Lavar Panasonic 15kg Branca Função Vanish NA-F150B1W 127v" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Lavanderia</div>
+      <h3>Máquina de Lavar Panasonic 15kg Branca Função Vanish NA-F150B1W 127v</h3>
+      <div class="price-row"><span class="price-was">de R$ 2.299,00</span><span class="price-now">por R$ 1.905,93</span><span class="price-off">-17%</span></div>
+      <p class="rating">4.4 de 5 em 116 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B00HGNXC8Q?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/110v-220v/">Guia: 110V ou 220V, como não errar</a>
+    </div>
+  </div>
 
-    <div class="card">
-      <div class="tile"><div class="glyph">🧊</div><div class="cat">Refrigeração</div></div>
-      <h3>Frigobar Eos Ice Compact 71L Branco (EFB80)</h3>
+  <div class="section-title">
+    <h2>🏠 Casa &amp; Utilidades</h2><div class="bar"></div>
+    <span class="updated">10 ofertas conferidas</span>
+  </div>
+  <div class="grid">
+    <div class="card" data-asin="B0CBSZ41J4">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/41DJWLonAjL._AC_UF500,500_QL80_.jpg" alt="Britânia Britania Aspirador de Pó 2 em 1 Vertical, Preto, Filtro HEPA," loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Britânia Britania Aspirador de Pó 2 em 1 Vertical, Preto, Filtro HEPA, Pisos e Carpetes…</h3>
+      <div class="price-row"><span class="price-was">de R$ 225,90</span><span class="price-now">por R$ 132,90</span><span class="price-off">-41%</span></div>
+      <p class="rating">4.7 de 5 em 743 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0CBSZ41J4?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/110v-220v/">Guia: 110V ou 220V, como não errar</a>
+    </div>
+    <div class="card" data-asin="B0G61PNQT4">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51wKSsW1rsL._AC_UF500,500_QL80_.jpg" alt="WAP Aspirador Vertical 3 Em 1 Power Speed Max 1600W de Potência Oscila" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>WAP Aspirador Vertical 3 Em 1 Power Speed Max 1600W de Potência Oscilação 360° Bicos Canto…</h3>
+      <div class="price-row"><span class="price-was">de R$ 369,90</span><span class="price-now">por R$ 226,73</span><span class="price-off">-39%</span></div>
+      <p class="rating">4.7 de 5 em 113 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0G61PNQT4?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/110v-220v/">Guia: 110V ou 220V, como não errar</a>
+    </div>
+    <div class="card" data-asin="B09NCZ4TP4">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/41qrfBunpgL._AC_UF500,500_QL80_.jpg" alt="Aspirador de Pó Vertical Oster Sem Fio 3 em 1, Bateria, Azul, 90W, OAS" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Aspirador de Pó Vertical Oster Sem Fio 3 em 1, Bateria, Azul, 90W, OASP630</h3>
+      <div class="price-row"><span class="price-was">de R$ 489,90</span><span class="price-now">por R$ 324,83</span><span class="price-off">-34%</span></div>
+      <p class="rating">4.6 de 5 em 323 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B09NCZ4TP4?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/110v-220v/">Guia: 110V ou 220V, como não errar</a>
+    </div>
+    <div class="card" data-asin="B0DXFTDS8V">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/41z0LwhQtiL._AC_UF500,500_QL80_.jpg" alt="Philco Aspirador Robô 3 em 1 Com MOP PAS23 Preto Bivolt Anticolisão | " loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Philco Aspirador Robô 3 em 1 Com MOP PAS23 Preto Bivolt Anticolisão | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 699,90</span><span class="price-now">por R$ 484,40</span><span class="price-off">-31%</span></div>
+      <p class="rating">4.1 de 5 em 145 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0DXFTDS8V?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/110v-220v/">Guia: 110V ou 220V, como não errar</a>
+    </div>
+    <div class="card" data-asin="B0FJNSJCFW">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/718RJy0DGaL._AC_UF500,500_QL80_.jpg" alt="Frigobar 67 Litros Inverter Bivolt Midea Bivolt | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Frigobar 67 Litros Inverter Bivolt Midea Bivolt | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 1.149,00</span><span class="price-now">por R$ 854,05</span><span class="price-off">-26%</span></div>
+      <p class="rating">4.5 de 5 em 94 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0FJNSJCFW?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/frigobar/">Guia: como escolher um frigobar</a>
+    </div>
+    <div class="card" data-asin="B077HV85MK">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/41kY4pDSF5L._AC_UF500,500_QL80_.jpg" alt="Purificador de Água FIT 200 | Tripla Filtração, Reduz Gostos e Odores…" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Purificador de Água FIT 200 | Tripla Filtração, Reduz Gostos e Odores…</h3>
+      <div class="price-row"><span class="price-was">de R$ 123,15</span><span class="price-now">por R$ 92,63</span><span class="price-off">-25%</span></div>
+      <p class="rating">4.8 de 5 em 829 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B077HV85MK?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/110v-220v/">Guia: 110V ou 220V, como não errar</a>
+    </div>
+    <div class="card" data-asin="B0FJJ3YY9B">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/31FoIRrnzXL._AC_UF500,500_QL80_.jpg" alt="Frigobar 93 Litros Inverter Bivolt Branco, Midea | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Frigobar 93 Litros Inverter Bivolt Branco, Midea | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 1.299,00</span><span class="price-now">por R$ 987,05</span><span class="price-off">-24%</span></div>
+      <p class="rating">4.2 de 5 em 344 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0FJJ3YY9B?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/frigobar/">Guia: como escolher um frigobar</a>
+    </div>
+    <div class="card" data-asin="B07SM721H1">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/31c-etq-lLL._AC_UF500,500_QL80_.jpg" alt="Frigobar Philco Pfg85b 68 Litros Porta Reversivel Branco 220v | Amazon" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Frigobar Philco Pfg85b 68 Litros Porta Reversivel Branco 220v | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 1.005,50</span><span class="price-now">por R$ 769,03</span><span class="price-off">-24%</span></div>
+      <p class="rating">4.5 de 5 em 146 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B07SM721H1?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/frigobar/">Guia: como escolher um frigobar</a>
+    </div>
+    <div class="card" data-asin="B0BTPZQXCJ">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/31TfOR16AjL._AC_UF500,500_QL80_.jpg" alt="Frigobar Philco PFG85P 5 Níveis Temperatura 68L 220V | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Frigobar Philco PFG85P 5 Níveis Temperatura 68L 220V | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 1.000,50</span><span class="price-now">por R$ 769,40</span><span class="price-off">-23%</span></div>
+      <p class="rating">4.4 de 5 em 216 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0BTPZQXCJ?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/frigobar/">Guia: como escolher um frigobar</a>
+    </div>
+    <div class="card" data-asin="B0GQBG77KJ">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/41W+miLnA1L._AC_UF500,500_QL80_.jpg" alt="Frigobar Eos 71 Litros Ice Compact Branco Efb80 110v | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Casa &amp; Utilidades</div>
+      <h3>Frigobar Eos 71 Litros Ice Compact Branco Efb80 110v | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 865,56</span><span class="price-now">por R$ 698,17</span><span class="price-off">-19%</span></div>
+      <p class="rating">4.2 de 5 em 7 avaliações na Amazon</p>
       <p class="note">Mesma linha do anterior, com 71 L. A diferença de preço entre os dois costuma ser pequena — se o espaço permitir, o de 71 L costuma compensar mais.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B0GQBG77KJ?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/guias/frigobar/">Guia: como escolher o tamanho certo</a>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0GQBG77KJ?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/frigobar/">Guia: como escolher um frigobar</a>
     </div>
-
-    <div class="card">
-      <div class="tile"><div class="glyph">🧺</div><div class="cat">Lavanderia</div></div>
-      <h3>Lavadora de Roupas Newmaq 10Kg Branca</h3>
-      <p class="note">Capacidade de 10 kg em uma marca de entrada — a faixa em que o preço costuma variar bastante entre vendedores. Versão <b>127V</b>.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B07L4MDP5Z?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/guias/lavadora/">Guia: o que importa além dos quilos</a>
-    </div>
-
   </div>
 
   <div class="section-title">
-    <h2>Informática e hardware</h2><div class="bar"></div>
+    <h2>💻 Informática</h2><div class="bar"></div>
+    <span class="updated">7 ofertas conferidas</span>
   </div>
   <div class="grid">
-
-    <div class="card">
-      <div class="tile"><div class="glyph">🔌</div><div class="cat">Hardware</div></div>
-      <h3>Placa-mãe Gigabyte B550M AORUS ELITE (AM4, DDR4, M.2 NVMe)</h3>
-      <p class="note">Socket AM4 com DDR4 e slot M.2 NVMe — combina com os Ryzen das séries 3000 e 5000. Formato micro-ATX, então confira o espaço no gabinete.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B08BN8VD23?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/guias/placa-mae-am4/">Guia: AM4 ainda faz sentido?</a>
+    <div class="card" data-asin="B0DWQK1Q8S">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61Jv+Gj6aBL._AC_UF500,500_QL80_.jpg" alt="Monitor Gamer Samsung Odyssey G5 27, Resolução QHD, Taxa de atualizaçã" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Informática</div>
+      <h3>Monitor Gamer Samsung Odyssey G5 27, Resolução QHD, Taxa de atualização de 165Hz &amp; 1ms de…</h3>
+      <div class="price-row"><span class="price-was">de R$ 1.449,00</span><span class="price-now">por R$ 699,01</span><span class="price-off">-52%</span></div>
+      <p class="rating">4.8 de 5 em 552 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0DWQK1Q8S?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
     </div>
-
-    <div class="card">
-      <div class="tile"><div class="glyph">⚡</div><div class="cat">Hardware</div></div>
-      <h3>Fonte XPG Core Reactor II VE 850W, 80 PLUS Gold, modular</h3>
-      <p class="note">850 W com certificação 80 PLUS Gold e cabos totalmente modulares. Traz o conector 12V-2x6, exigido pelas placas de vídeo RTX mais recentes.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B0CNCHV3V4?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
-      <a class="ghost" href="/guias/fonte-pc/">Guia: como escolher a fonte</a>
+    <div class="card" data-asin="B0DDM2P8VM">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/71pno3IJdoL._AC_UF500,500_QL80_.jpg" alt="Monitor BRX 21&quot; LED 75hz HDMI VGA Preto | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Informática</div>
+      <h3>Monitor BRX 21&quot; LED 75hz HDMI VGA Preto | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 452,00</span><span class="price-now">por R$ 224,76</span><span class="price-off">-50%</span></div>
+      <p class="rating">4.1 de 5 em 163 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0DDM2P8VM?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
     </div>
-
-    <div class="card">
-      <div class="tile"><div class="glyph">💧</div><div class="cat">Hardware</div></div>
-      <h3>Water Cooler 240mm Gamdias Aura GL240 V2 ARGB</h3>
+    <div class="card" data-asin="B0CJVJPRXJ">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51siVmIvWnL._AC_UF500,500_QL80_.jpg" alt="Monitor 19.5&quot; LED, Widescreen, 75Hz, 2ms, HD, HDMI, VGA, VESA, Ajuste " loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Informática</div>
+      <h3>Monitor 19.5&quot; LED, Widescreen, 75Hz, 2ms, HD, HDMI, VGA, VESA, Ajuste de inclinação…</h3>
+      <div class="price-row"><span class="price-was">de R$ 309,35</span><span class="price-now">por R$ 179,10</span><span class="price-off">-42%</span></div>
+      <p class="rating">4.2 de 5 em 315 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0CJVJPRXJ?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0C482RTVV">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61CROHxCUzL._AC_UF500,500_QL80_.jpg" alt="Placa mãe LGA 1700 - Gigabyte B760M Aorus Elite DDR5 (Micro ATX) | Ama" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Informática</div>
+      <h3>Placa mãe LGA 1700 - Gigabyte B760M Aorus Elite DDR5 (Micro ATX) | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 1.690,00</span><span class="price-now">por R$ 1.045,94</span><span class="price-off">-38%</span></div>
+      <p class="rating">4.3 de 5 em 224 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0C482RTVV?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0D6NMCZG1">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/71klxIIJP5L._AC_UF500,500_QL80_.jpg" alt="Processador AMD Ryzen 9 5900XT Box (AM4/ 16 Cores/ 32 Threads/ 4.8GHz/" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Informática</div>
+      <h3>Processador AMD Ryzen 9 5900XT Box (AM4/ 16 Cores/ 32 Threads/ 4.8GHz/ 72MB Cache/Sem…</h3>
+      <div class="price-row"><span class="price-was">de R$ 3.096,68</span><span class="price-now">por R$ 2.049,99</span><span class="price-off">-34%</span></div>
+      <p class="rating">4.7 de 5 em 641 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0D6NMCZG1?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B08HKWLNPV">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/71S7GUFG-sL._AC_UF500,500_QL80_.jpg" alt="Placa-mãe ASRock AMD A520 Socket AM4 Micro ATX DDR4-SDRAM | Amazon.com" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Informática</div>
+      <h3>Placa-mãe ASRock AMD A520 Socket AM4 Micro ATX DDR4-SDRAM | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 549,99</span><span class="price-now">por R$ 389,18</span><span class="price-off">-29%</span></div>
+      <p class="rating">4.5 de 5 em 368 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B08HKWLNPV?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0GJ78Z3K5">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/6157NUZTSsL._AC_UF500,500_QL80_.jpg" alt="Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA " loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Informática</div>
+      <h3>Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA 1700/1200/1151 e AMD…</h3>
+      <div class="price-row"><span class="price-was">de R$ 322,07</span><span class="price-now">por R$ 270,00</span><span class="price-off">-16%</span></div>
       <p class="note">Radiador de 240 mm. Antes de comprar, confirme que o gabinete tem suporte para radiador desse tamanho no topo ou na frente.</p>
-      <a class="buy" href="https://www.amazon.com.br/dp/B0GJ78Z3K5?tag=dutr4ofertas-20" rel="nofollow sponsored">Ver na Amazon</a>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0GJ78Z3K5?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
     </div>
-
   </div>
+
+  <div class="section-title">
+    <h2>🔧 Ferramentas &amp; Automotivo</h2><div class="bar"></div>
+    <span class="updated">10 ofertas conferidas</span>
+  </div>
+  <div class="grid">
+    <div class="card" data-asin="B09KF6GLRM">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61rqykIzkfL._AC_UF500,500_QL80_.jpg" alt="FI-RH-01M - Furadeira com Impacto 220V - Mondial | Amazon.com.br" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>FI-RH-01M - Furadeira com Impacto 220V - Mondial | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 284,20</span><span class="price-now">por R$ 110,07</span><span class="price-off">-61%</span></div>
+      <p class="rating">4.6 de 5 em 257 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B09KF6GLRM?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0F2JMYPQ9">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/71Bnm202WgL._AC_UF500,500_QL80_.jpg" alt="WAP Parafusadeira Furadeira de Impacto à Bateria 3/8&quot; 12V WF 12K4.2 co" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>WAP Parafusadeira Furadeira de Impacto à Bateria 3/8&quot; 12V WF 12K4.2 com 18 Níveis de Torque…</h3>
+      <div class="price-row"><span class="price-was">de R$ 449,90</span><span class="price-now">por R$ 180,49</span><span class="price-off">-60%</span></div>
+      <p class="rating">4.5 de 5 em 236 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0F2JMYPQ9?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B076BBRJZK">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/81QFxDHFphL._AC_UF500,500_QL80_.jpg" alt="MONDIAL Furadeira de Impacto, Preto, 550W, 110V - FI-09 | Amazon.com.b" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>MONDIAL Furadeira de Impacto, Preto, 550W, 110V - FI-09 | Amazon.com.br</h3>
+      <div class="price-row"><span class="price-was">de R$ 189,90</span><span class="price-now">por R$ 94,91</span><span class="price-off">-50%</span></div>
+      <p class="rating">4.5 de 5 em 587 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B076BBRJZK?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0CYCJ66Y8">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/81nOM1QSkkL._AC_UF500,500_QL80_.jpg" alt="WAP Parafusadeira e Furadeira de Impacto 3/8&quot; WF-700K10, com 11 Acessó" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>WAP Parafusadeira e Furadeira de Impacto 3/8&quot; WF-700K10, com 11 Acessórios e Maleta…</h3>
+      <div class="price-row"><span class="price-was">de R$ 239,90</span><span class="price-now">por R$ 126,58</span><span class="price-off">-47%</span></div>
+      <p class="rating">4.6 de 5 em 878 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0CYCJ66Y8?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B07C5RCY6G">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61I9p0L75NL._AC_UF500,500_QL80_.jpg" alt="Philco Furadeira Pfu01M 127V, 051101002, Azul/Preto/Cinza Reversão de " loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>Philco Furadeira Pfu01M 127V, 051101002, Azul/Preto/Cinza Reversão de rotação…</h3>
+      <div class="price-row"><span class="price-was">de R$ 162,50</span><span class="price-now">por R$ 114,56</span><span class="price-off">-30%</span></div>
+      <p class="rating">4.5 de 5 em 382 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B07C5RCY6G?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B0CY5SQ1B6">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61GGmEpaK-L._AC_UF500,500_QL80_.jpg" alt="WAP Parafusadeira e Furadeira de Impacto 3/8&quot; WF-700FE, com Chave de M" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>WAP Parafusadeira e Furadeira de Impacto 3/8&quot; WF-700FE, com Chave de Mandril…</h3>
+      <div class="price-row"><span class="price-was">de R$ 179,90</span><span class="price-now">por R$ 128,25</span><span class="price-off">-29%</span></div>
+      <p class="rating">4.4 de 5 em 386 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B0CY5SQ1B6?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B07C5XYT22">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61I9p0L75NL._AC_UF500,500_QL80_.jpg" alt="Philco Furadeira Pfu01M, 220V 051102002, Azul/Preto/Cinza Velocidade V" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>Philco Furadeira Pfu01M, 220V 051102002, Azul/Preto/Cinza Velocidade Variável…</h3>
+      <div class="price-row"><span class="price-was">de R$ 163,60</span><span class="price-now">por R$ 123,11</span><span class="price-off">-25%</span></div>
+      <p class="rating">4.7 de 5 em 301 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B07C5XYT22?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B089MFL8W7">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/619ZQFUP0eL._AC_UF500,500_QL80_.jpg" alt="BLACK+DECKER Furadeira de Impacto 10mm, Potência 560W, com Maleta e 9 " loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>BLACK+DECKER Furadeira de Impacto 10mm, Potência 560W, com Maleta e 9 Brocas…</h3>
+      <div class="price-row"><span class="price-was">de R$ 259,00</span><span class="price-now">por R$ 206,15</span><span class="price-off">-20%</span></div>
+      <p class="rating">4.6 de 5 em 293 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B089MFL8W7?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B07C5Q1FGG">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/51QzjnUQwJL._AC_UF500,500_QL80_.jpg" alt="Philco Furadeira Pfu01Mf 127V, 051101003, Azul/Preto/Cinza Controle el" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>Philco Furadeira Pfu01Mf 127V, 051101003, Azul/Preto/Cinza Controle eletrônico de velocid…</h3>
+      <div class="price-row"><span class="price-was">de R$ 204,50</span><span class="price-now">por R$ 164,88</span><span class="price-off">-19%</span></div>
+      <p class="rating">4.5 de 5 em 194 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B07C5Q1FGG?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+    <div class="card" data-asin="B09KDZHSVM">
+      <div class="thumb"><img src="https://m.media-amazon.com/images/I/61rqykIzkfL._AC_UF500,500_QL80_.jpg" alt="MONDIAL Furadeira de Impacto com maleta e 19 acessórios, Mondial, Lara" loading="lazy" width="200" height="200"></div>
+      <div class="cat-chip">Ferramentas &amp; Automotivo</div>
+      <h3>MONDIAL Furadeira de Impacto com maleta e 19 acessórios, Mondial, Laranja, 650W, 110V…</h3>
+      <div class="price-row"><span class="price-was">de R$ 288,00</span><span class="price-now">por R$ 234,91</span><span class="price-off">-18%</span></div>
+      <p class="rating">4.4 de 5 em 344 avaliações na Amazon</p>
+      <p class="verified">Preço conferido em 11/09/2026 às 13h00</p>
+      <a class="buy" href="https://www.amazon.com.br/dp/B09KDZHSVM?tag=dutr4ofertas-20" rel="nofollow sponsored" target="_blank" rel="noopener">Ver oferta na Amazon</a>
+      <a class="ghost" href="/guias/desconto-real/">Guia: como saber se o desconto é real</a>
+    </div>
+  </div>
+
+  <!-- OFERTAS:FIM -->
 
   <div class="section-title">
     <h2>Análises de produtos</h2><div class="bar"></div>
@@ -426,7 +841,8 @@
       disponibilidade e condições de entrega são definidos pela Amazon e podem mudar a qualquer
       momento; confira sempre na página do produto antes de finalizar a compra. Também participamos
       de programas de afiliados de outras lojas, e isso é sinalizado quando for o caso. Veja a
-      divulgação completa em <a href="/disclosure/">Divulgação de afiliados</a>.
+      divulgação completa em <a href="/disclosure/">Divulgação de afiliados</a>
+    <a href="/como-verificamos/">Como verificamos</a>.
     </p>
   </div>
 </main>

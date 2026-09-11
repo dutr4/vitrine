@@ -137,4 +137,10 @@
     <priority>0.3</priority>
   </url>
 
+  <url>
+    <loc>https://vitrine.dutr4.com.br/como-verificamos/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
