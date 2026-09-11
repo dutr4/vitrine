@@ -49,7 +49,7 @@ python3 tools/montar_selecao.py 18 2>&1 | tail -8 | tee -a "$LOG"
 
 # 3) verificação na página do produto (preço/disponibilidade reais)
 log "verificando ofertas na Amazon..."
-python3 tools/verificar_ofertas.py 60 2>&1 | tail -4 | tee -a "$LOG"
+python3 tools/verificar_ofertas.py 90 2>&1 | tail -4 | tee -a "$LOG"
 python3 tools/verificar_destaques.py 6 2>&1 | tail -3 | tee -a "$LOG"
 
 # 4) consolidação (destaques + coletadas, com filtros de qualidade)

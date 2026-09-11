@@ -55,7 +55,9 @@ def titulo_casa(a: str, b: str) -> tuple[bool, float]:
 def carregar(refazer: bool) -> list[dict]:
     if os.path.exists(SAIDA) and not refazer:
         return json.load(open(SAIDA, encoding="utf-8"))["ofertas"]
-    return json.load(open(ENTRADA, encoding="utf-8"))["ofertas"]
+    if os.path.exists(ENTRADA):
+        return json.load(open(ENTRADA, encoding="utf-8"))["ofertas"]
+    return []
 
 
 def salvar(lst: list[dict]) -> None:
@@ -69,6 +71,9 @@ def main() -> None:
     limite = int(args[0]) if args else 30
 
     ofertas = carregar(refazer)
+    if not ofertas:
+        print("nada para verificar: rode tools/montar_selecao.py antes")
+        return
     if refazer:
         for o in ofertas:
             o.pop("verificado_em", None)

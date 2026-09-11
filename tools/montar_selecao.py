@@ -35,9 +35,18 @@ BRUTO = f"{WORK}/ofertas_busca.json"
 VERIF = f"{WORK}/selecao_verificada.json"
 SAIDA = f"{WORK}/selecao_final.json"
 
-verif = json.load(open(VERIF, encoding="utf-8"))["ofertas"]
-por_asin = {o["asin"]: o for o in verif}
-print(f"registro anterior: {len(verif)} itens")
+if os.path.exists(VERIF):
+    verif = json.load(open(VERIF, encoding="utf-8"))["ofertas"]
+    print(f"registro anterior: {len(verif)} itens")
+else:
+    # primeira montagem: aproveita a ultima selecao publicada, se existir
+    pub = os.path.join(os.path.dirname(BASE), "dados", "ofertas.json")
+    if os.path.exists(pub):
+        verif = json.load(open(pub, encoding="utf-8"))["ofertas"]
+        print(f"sem registro de trabalho: aproveitando {len(verif)} ofertas ja publicadas")
+    else:
+        verif = []
+        print("sem registro anterior: primeira montagem a partir do pool novo")
 
 # 1) o que ja foi verificado e continua valido pelos filtros novos
 validos, descartados = [], set()
@@ -108,8 +117,10 @@ for cat, lst in sorted(por_cat.items()):
     final.extend(escolhidos)
     print(f"  {cat}: {len(ja)} verificados + {len(escolhidos) - len(ja)} novos = {len(escolhidos)}")
 
-json.dump({"total": len(final), "ofertas": final}, open(SAIDA, "w", encoding="utf-8"),
-          ensure_ascii=False, indent=2)
+dados = {"total": len(final), "ofertas": final}
+# grava o estado (usado pelo verificador) e uma copia de conveniencia
+json.dump(dados, open(VERIF, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+json.dump(dados, open(SAIDA, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 pend = [o for o in final if not o.get("verificado_em")]
 print(f"\nselecao final: {len(final)} ofertas | a verificar: {len(pend)}")
 print(f"salvo em {SAIDA}")
