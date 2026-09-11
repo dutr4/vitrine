@@ -1,4 +1,4 @@
 {
-  "tag_afiliado": "dutr4ofertas-20",
-  "observacao": "Trocar a tag aqui e rodar tools/gerar_site.py quando a nova conta for aprovada."
+  "tag_afiliado": "dutr4oferta00-20",
+  "observacao": "Tag unica do site; usada por tools/gerar_site.py ao gerar os cards. Ao mudar de conta, trocar aqui e rodar tools/gerar_site.py."
 }

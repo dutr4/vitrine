@@ -204,7 +204,7 @@ def main() -> None:
     dry = "--dry-run" in sys.argv
     dados = json.load(open(DADOS, encoding="utf-8"))
     cfg = json.load(open(CONFIG, encoding="utf-8")) if os.path.exists(CONFIG) else {}
-    tag = cfg.get("tag_afiliado", "dutr4ofertas-20")
+    tag = cfg.get("tag_afiliado", "dutr4oferta00-20")
     ofertas = dados["ofertas"]
 
     bloco = gerar_bloco(ofertas, tag)

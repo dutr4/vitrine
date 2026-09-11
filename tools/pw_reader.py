@@ -18,7 +18,7 @@ import sys
 
 from playwright.sync_api import sync_playwright
 
-TAG = "dutr4ofertas-20"
+TAG = "dutr4oferta00-20"
 
 
 def limpa(t):
