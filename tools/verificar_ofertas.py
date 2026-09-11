@@ -78,13 +78,18 @@ def main() -> None:
         for o in ofertas:
             o.pop("verificado_em", None)
 
+    pendentes = [o for o in ofertas if not o.get("verificado_em")][:limite]
+    lote = col.info_produtos_lote([o["asin"] for o in pendentes])
+    if lote:
+        print(f"leitura com navegador: {len(lote)}/{len(pendentes)} paginas", file=sys.stderr)
+
     feitos = 0
     for o in ofertas:
         if o.get("verificado_em") or feitos >= limite:
             if feitos >= limite:
                 break
             continue
-        info = col.info_produto(o["asin"])
+        info = lote.get(o["asin"]) or col.info_produto(o["asin"])
         feitos += 1
         agora = datetime.now(TZ).isoformat(timespec="seconds")
         if not info or not info.get("preco"):

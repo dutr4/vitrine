@@ -308,6 +308,60 @@ def info_produto(asin: str) -> dict | None:
     }
 
 
+
+# ------------------------------------------------- leitura em lote (navegador)
+def info_produtos_lote(asins: list[str], container: str | None = None) -> dict[str, dict]:
+    """Le varias paginas de produto com navegador real (Playwright) rodando dentro
+    de um container. A Amazon passou a servir pagina degradada (sem preco) para
+    clientes que nao sao navegador, entao este e o caminho confiavel.
+
+    Devolve {asin: info} no mesmo formato de info_produto(). Retorna {} quando
+    indisponivel (sem docker/container), e o chamador cai no fallback por curl.
+    """
+    if not asins or os.environ.get("VITRINE_PW_DISABLED") == "1":
+        return {}
+    container = container or os.environ.get("VITRINE_PW_CONTAINER", "promobot-dev-promobot-1")
+
+    checa = subprocess.run(
+        ["docker", "inspect", "-f", "{{.State.Running}}", container],
+        capture_output=True, text=True,
+    )
+    if checa.returncode != 0 or "true" not in checa.stdout.lower():
+        return {}
+
+    base = os.path.dirname(os.path.abspath(__file__))
+    subprocess.run(["docker", "cp", os.path.join(base, "pw_reader.py"), f"{container}:/tmp/pw_reader.py"],
+                   capture_output=True, text=True)
+
+    resultados: dict[str, dict] = {}
+    lote = 8  # lotes menores: menos risco de timeout e de bloqueio
+    for i in range(0, len(asins), lote):
+        proc = subprocess.run(
+            ["docker", "exec", container, "python", "/tmp/pw_reader.py", *asins[i:i + lote]],
+            capture_output=True, text=True, timeout=900,
+        )
+        for linha in (proc.stdout or "").splitlines():
+            try:
+                d = json.loads(linha)
+            except json.JSONDecodeError:
+                continue
+            if not d.get("asin"):
+                continue
+            resultados[d["asin"]] = {
+                "asin": d["asin"],
+                "titulo": d.get("titulo"),
+                "preco": d.get("preco"),
+                "preco_referencia": d.get("preco_referencia"),
+                "disponivel": bool(d.get("disponivel")),
+                "indisponivel_motivo": None if d.get("disponivel") else (d.get("motivo") or "sem compra"),
+                "estrelas": d.get("estrelas"),
+                "avaliacoes": d.get("avaliacoes"),
+                "imagem": d.get("imagem"),
+                "fonte": "playwright",
+            }
+    return resultados
+
+
 def main() -> None:
     if len(sys.argv) < 3:
         print(__doc__)

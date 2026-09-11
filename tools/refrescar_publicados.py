@@ -77,9 +77,14 @@ def main() -> None:
     agora = datetime.now(TZ).isoformat(timespec="seconds")
     atualizadas, removidas, sem_leitura, suspeitas = [], [], [], []
 
+    # leitura em lote com navegador real (confiavel); curl entra só como reserva
+    lote = col.info_produtos_lote([o["asin"] for o in publicadas])
+    if lote:
+        print(f"leitura com navegador: {len(lote)}/{len(publicadas)} paginas", flush=True)
+
     for i, o in enumerate(publicadas, 1):
         asin = o["asin"]
-        info = col.info_produto(asin)
+        info = lote.get(asin) or col.info_produto(asin)
         ok, motivo = leitura_confiavel(o, info)
         if not ok:
             sem_leitura.append((asin, motivo))
