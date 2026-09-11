@@ -19,6 +19,10 @@ DEPLOY=1
 LOG="$VITRINE_WORK/pipeline.log"
 log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
 
+# trava: uma execucao por vez (o cron tambem usa flock)
+exec 9>/tmp/vitrine.lock
+if ! flock -n 9; then log "outra execucao em andamento — saindo"; exit 0; fi
+
 # Buscas por categoria (o pool de candidatos)
 QUERIES=(
   "air fryer" "panificadora" "cafeteira" "liquidificador" "batedeira" "micro-ondas"
