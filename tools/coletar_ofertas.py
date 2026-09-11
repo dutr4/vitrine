@@ -203,7 +203,6 @@ _RE_AVALIACOES = re.compile(r'([\d\.]+)\s*avalia[çc][õo]es')
 _RE_AVALIACOES_ESCOPO = re.compile(
     r'averageCustomerReviews_feature_div.(0, 600)?([\d\.]+)\s*avalia[çc][õo]es', re.S
 )
-_RE_CUPOM = re.compile(r'(?:Cupom|cupom)[^<]{0,40}?(?:de\s*)?R\$\s*([\d\.,]+)|Aplique\s*([\d\.,]+)\s*%')
 _RE_INDISPONIVEL = re.compile(
     r"Temporariamente fora de estoque|No momento, este item n[ãa]o est[áa] dispon[íi]vel|"
     r"Atualmente indispon[íi]vel|Currently unavailable",
