@@ -49,8 +49,18 @@ def ler(pg, asin):
     d = {"asin": asin, "titulo": None, "preco": None, "preco_referencia": None,
          "desconto": None, "disponivel": False, "motivo": None, "estrelas": None,
          "avaliacoes": None, "imagem": None}
-    pg.goto(f"https://www.amazon.com.br/dp/{asin}?tag={TAG}", wait_until="domcontentloaded", timeout=45000)
-    pg.wait_for_timeout(2200)
+    # wait_until="commit" + espera pelo BLOCO DO PRODUTO: a Amazon as vezes entrega
+    # so o cabecalho (pagina degradada) e "domcontentloaded" fica pendurado em
+    # assets lentos. Esperar o seletor e deterministico; esperar 2s no relogio nao.
+    pg.goto(f"https://www.amazon.com.br/dp/{asin}?tag={TAG}", wait_until="commit", timeout=60000)
+    try:
+        pg.wait_for_selector(
+            "#productTitle, #corePriceDisplay_desktop_feature_div, #outOfStock",
+            timeout=25000,
+        )
+    except Exception:  # noqa: BLE001
+        pass  # segue: o chamador trata "sem titulo" como leitura nao confiavel
+    pg.wait_for_timeout(700)
 
     el = pg.query_selector("#productTitle")
     d["titulo"] = limpa(el.inner_text()) if el else None
