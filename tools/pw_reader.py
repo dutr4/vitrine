@@ -13,12 +13,22 @@ Saída (uma linha por ASIN):
 from __future__ import annotations
 
 import json
+import os
+import random
 import re
 import sys
 
 from playwright.sync_api import sync_playwright
 
 TAG = "dutr4oferta00-20"
+
+# A Amazon bloqueia por fingerprint de cliente, nao so por IP: o UA padrao do
+# Playwright ("HeadlessChrome") e o primeiro sinal. Com UA real + ritmo humano a
+# leitura passa; sem isso 40 de 50 paginas voltam sem titulo (02/11/2026).
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+PAUSA_PAGINA = float(os.environ.get("VITRINE_PAUSA_PAGINA", "8"))   # entre ASINs
+TENTATIVAS = int(os.environ.get("VITRINE_PW_TENTATIVAS", "2"))
 
 
 def limpa(t):
@@ -45,7 +55,18 @@ def ler(pg, asin):
     el = pg.query_selector("#productTitle")
     d["titulo"] = limpa(el.inner_text()) if el else None
     if not d["titulo"]:
-        d["motivo"] = "pagina sem titulo"
+        corpo = ""
+        try:
+            corpo = pg.content()
+        except Exception:  # noqa: BLE001
+            pass
+        if re.search(r"Digite os caracteres|Introduza os caracteres|nao e um robo|"
+                     r"não é um robô|api-services-support|validateCaptcha", corpo, re.I):
+            d["motivo"] = "captcha/bloqueio"
+        elif not corpo:
+            d["motivo"] = "pagina vazia"
+        else:
+            d["motivo"] = "pagina sem titulo"
         return d
 
     blocos = []
@@ -100,14 +121,46 @@ def ler(pg, asin):
 def main():
     asins = [a for a in sys.argv[1:] if a]
     with sync_playwright() as p:
-        nav = p.chromium.launch(args=["--no-sandbox"])
-        pg = nav.new_page(locale="pt-BR")
-        for a in asins:
-            try:
-                print(json.dumps(ler(pg, a), ensure_ascii=False), flush=True)
-            except Exception as e:  # noqa: BLE001
-                print(json.dumps({"asin": a, "titulo": None, "preco": None, "disponivel": False,
-                                  "motivo": f"erro: {type(e).__name__}"}, ensure_ascii=False), flush=True)
+        nav = p.chromium.launch(args=[
+            "--no-sandbox",
+            "--disable-blink-features=AutomationControlled",
+            "--disable-dev-shm-usage",
+        ])
+        ctx = nav.new_context(
+            user_agent=UA,
+            locale="pt-BR",
+            timezone_id="America/Sao_Paulo",
+            viewport={"width": 1366, "height": 768},
+            extra_http_headers={"Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8"},
+        )
+        # Esconde o "webdriver" que o Chromium anuncia por padrao.
+        ctx.add_init_script(
+            "Object.defineProperty(navigator,'webdriver',{get:()=>undefined});"
+        )
+        pg = ctx.new_page()
+        # Aquecimento: uma visita a home por processo deixa cookies de visitante.
+        try:
+            pg.goto("https://www.amazon.com.br/", wait_until="domcontentloaded", timeout=45000)
+            pg.wait_for_timeout(1500)
+        except Exception:  # noqa: BLE001
+            pass
+
+        for i, a in enumerate(asins):
+            d = None
+            for tentativa in range(1, TENTATIVAS + 1):
+                try:
+                    d = ler(pg, a)
+                except Exception as e:  # noqa: BLE001
+                    d = {"asin": a, "titulo": None, "preco": None, "disponivel": False,
+                         "motivo": f"erro: {type(e).__name__}"}
+                if d.get("titulo"):
+                    break
+                if tentativa < TENTATIVAS:
+                    # Bloqueio costuma ser passageiro: espera e tenta de novo.
+                    pg.wait_for_timeout(8000 + random.randint(0, 5000))
+            print(json.dumps(d, ensure_ascii=False), flush=True)
+            if i + 1 < len(asins):
+                pg.wait_for_timeout(int(PAUSA_PAGINA * 1000) + random.randint(0, 2500))
         nav.close()
 
 
