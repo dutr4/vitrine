@@ -76,6 +76,11 @@ def brl(v: float | None) -> str:
     return f"R$ {s}"
 
 
+RE_VARIANTE = re.compile(
+    r"\b(110\s?V|127\s?V|220\s?V|bivolt|preta|preto|branca|branco|inox|"
+    r"cinza|prata|azul|vermelh[ao]|grafite)\b", re.I)
+
+
 def encurtar(titulo: str, limite: int = 92) -> str:
     t = " ".join((titulo or "").split())
     if len(t) <= limite:
@@ -86,7 +91,14 @@ def encurtar(titulo: str, limite: int = 92) -> str:
         if i > limite * 0.55:
             corte = corte[:i]
             break
-    return corte.rstrip(" ,-|") + "…"
+    # A diferenca entre variantes do mesmo produto (127V x 220V, Branca x Inox)
+    # mora no FIM do titulo. Se o corte esconde justamente isso, dois cards ficam
+    # identicos aos olhos do leitor — melhor levar a variante para o fim.
+    sufixo = ""
+    m = RE_VARIANTE.search(t[len(corte):len(corte) + 70])
+    if m:
+        sufixo = f" ({m.group(1).upper()})"
+    return corte.rstrip(" ,-|") + "…" + sufixo
 
 
 def guia_para(oferta: dict, categoria: str) -> tuple[str, str]:

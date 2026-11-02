@@ -136,42 +136,54 @@ def main():
             "--disable-blink-features=AutomationControlled",
             "--disable-dev-shm-usage",
         ])
-        ctx = nav.new_context(
-            user_agent=UA,
-            locale="pt-BR",
-            timezone_id="America/Sao_Paulo",
-            viewport={"width": 1366, "height": 768},
-            extra_http_headers={"Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8"},
-        )
-        # Esconde o "webdriver" que o Chromium anuncia por padrao.
-        ctx.add_init_script(
-            "Object.defineProperty(navigator,'webdriver',{get:()=>undefined});"
-        )
-        pg = ctx.new_page()
-        # Aquecimento: uma visita a home por processo deixa cookies de visitante.
         try:
-            pg.goto("https://www.amazon.com.br/", wait_until="domcontentloaded", timeout=45000)
-            pg.wait_for_timeout(1500)
-        except Exception:  # noqa: BLE001
-            pass
+            _ler_lote(nav, asins)
+        finally:
+            # Sem o finally, um exec interrompido deixa o Chromium vivo dentro do
+            # container; somado aos zumbis (PID 1 nao colhe filhos de docker exec)
+            # a rodada seguinte morre com "TargetClosedError: Page crashed".
+            try:
+                nav.close()
+            except Exception:  # noqa: BLE001
+                pass
 
-        for i, a in enumerate(asins):
-            d = None
-            for tentativa in range(1, TENTATIVAS + 1):
-                try:
-                    d = ler(pg, a)
-                except Exception as e:  # noqa: BLE001
-                    d = {"asin": a, "titulo": None, "preco": None, "disponivel": False,
-                         "motivo": f"erro: {type(e).__name__}"}
-                if d.get("titulo"):
-                    break
-                if tentativa < TENTATIVAS:
-                    # Bloqueio costuma ser passageiro: espera e tenta de novo.
-                    pg.wait_for_timeout(8000 + random.randint(0, 5000))
-            print(json.dumps(d, ensure_ascii=False), flush=True)
-            if i + 1 < len(asins):
-                pg.wait_for_timeout(int(PAUSA_PAGINA * 1000) + random.randint(0, 2500))
-        nav.close()
+
+def _ler_lote(nav, asins):
+    ctx = nav.new_context(
+        user_agent=UA,
+        locale="pt-BR",
+        timezone_id="America/Sao_Paulo",
+        viewport={"width": 1366, "height": 768},
+        extra_http_headers={"Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8"},
+    )
+    # Esconde o "webdriver" que o Chromium anuncia por padrao.
+    ctx.add_init_script(
+        "Object.defineProperty(navigator,'webdriver',{get:()=>undefined});"
+    )
+    pg = ctx.new_page()
+    # Aquecimento: uma visita a home por processo deixa cookies de visitante.
+    try:
+        pg.goto("https://www.amazon.com.br/", wait_until="domcontentloaded", timeout=45000)
+        pg.wait_for_timeout(1500)
+    except Exception:  # noqa: BLE001
+        pass
+
+    for i, a in enumerate(asins):
+        d = None
+        for tentativa in range(1, TENTATIVAS + 1):
+            try:
+                d = ler(pg, a)
+            except Exception as e:  # noqa: BLE001
+                d = {"asin": a, "titulo": None, "preco": None, "disponivel": False,
+                     "motivo": f"erro: {type(e).__name__}"}
+            if d.get("titulo"):
+                break
+            if tentativa < TENTATIVAS:
+                # Bloqueio costuma ser passageiro: espera e tenta de novo.
+                pg.wait_for_timeout(8000 + random.randint(0, 5000))
+        print(json.dumps(d, ensure_ascii=False), flush=True)
+        if i + 1 < len(asins):
+            pg.wait_for_timeout(int(PAUSA_PAGINA * 1000) + random.randint(0, 2500))
 
 
 if __name__ == "__main__":
