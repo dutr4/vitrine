@@ -25,6 +25,15 @@ TZ_BR = timezone(timedelta(hours=-3))
 MARCA_INI = "<!-- OFERTAS:INICIO"
 MARCA_FIM = "<!-- OFERTAS:FIM -->"
 
+# Frescor da oferta. O revisor do programa de afiliados abre a vitrine e confere
+# preco/estoque: oferta conferida ha dias no ar e motivo de reprovacao (caso real
+# 26/10/2026: o pipeline ficou parado de 11/09 a 02/11 e o site seguiu publicando
+# preco de 52 dias atras). Oferta mais velha que isto NAO entra no HTML — melhor
+# menos ofertas do que oferta vencida. Se sobrarem menos que MIN_OFERTAS, o
+# gerador aborta sem escrever nada (o site fica com o ultimo build bom).
+MAX_IDADE_HORAS = float(os.environ.get("VITRINE_MAX_IDADE_HORAS", "30"))
+MIN_OFERTAS = int(os.environ.get("VITRINE_MIN_OFERTAS", "25"))
+
 # Guias existentes, por palavra-chave no titulo do produto.
 GUIAS = [
     ("air fryer", "/guias/air-fryer-funcoes/", "Guia: o que cada função da air fryer faz"),
@@ -149,13 +158,43 @@ def cartao(o: dict, tag: str, margem_data: str) -> str:
     return "\n".join(partes)
 
 
+def idade_horas(o: dict) -> float | None:
+    """Horas desde a conferencia da oferta (None = carimbo ausente/invalido)."""
+    v = o.get("verificado_em")
+    if not v or v == "FALHA_FETCH":
+        return None
+    try:
+        dt = datetime.fromisoformat(v)
+    except (ValueError, TypeError):
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=TZ_BR)
+    return (datetime.now(TZ_BR) - dt).total_seconds() / 3600.0
+
+
+def ofertas_validas(ofertas: list[dict]) -> list[dict]:
+    """Ofertas que podem ir ao ar.
+
+    Exige: disponivel, preco, desconto REAL conferido (preco abaixo do preco de
+    referencia informado pela propria Amazon) e **conferencia recente**
+    (MAX_IDADE_HORAS). Carimbo ausente conta como nao provado = fora.
+    """
+    boas = []
+    for o in ofertas:
+        if not (o.get("preco") and o.get("disponivel") and not o.get("descartar")):
+            continue
+        if not (o.get("desconto_pct") and o.get("preco_referencia")
+                and o["preco_referencia"] > o["preco"]):
+            continue
+        idade = idade_horas(o)
+        if idade is None or idade > MAX_IDADE_HORAS:
+            continue
+        boas.append(o)
+    return boas
+
+
 def gerar_bloco(ofertas: list[dict], tag: str) -> str:
-    # Só entra na vitrine: disponivel, com preco e com desconto REAL conferido
-    # (preco abaixo do preco de referencia informado pela propria Amazon).
-    boas = [o for o in ofertas
-            if o.get("preco") and o.get("disponivel") and not o.get("descartar")
-            and o.get("desconto_pct") and o.get("preco_referencia")
-            and o["preco_referencia"] > o["preco"]]
+    boas = ofertas_validas(ofertas)
 
     # data da verificacao (a mais recente)
     datas = [o["verificado_em"] for o in boas if o.get("verificado_em")]
@@ -206,6 +245,16 @@ def main() -> None:
     cfg = json.load(open(CONFIG, encoding="utf-8")) if os.path.exists(CONFIG) else {}
     tag = cfg.get("tag_afiliado", "dutr4oferta00-20")
     ofertas = dados["ofertas"]
+
+    boas = ofertas_validas(ofertas)
+    vencidas = sum(1 for o in ofertas
+                   if (i := idade_horas(o)) is not None and i > MAX_IDADE_HORAS)
+    print(f"ofertas frescas (<= {MAX_IDADE_HORAS:g}h): {len(boas)} de {len(ofertas)}"
+          f" | vencidas: {vencidas}")
+    if len(boas) < MIN_OFERTAS:
+        print(f"ABORTADO: {len(boas)} ofertas frescas, abaixo do minimo {MIN_OFERTAS}."
+              " Nada foi escrito nem publicado — rode a coleta/verificacao.")
+        sys.exit(3)
 
     bloco = gerar_bloco(ofertas, tag)
     html_atual = open(INDEX, encoding="utf-8").read()
