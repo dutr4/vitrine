@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-07T09:15:03-03:00",
+  "gerado_em": "2026-11-07T11:15:03-03:00",
   "total": 95,
   "ofertas": [
     {
@@ -60,7 +60,7 @@
       "imagem": "https://m.media-amazon.com/images/I/51OmxaZFbNL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 749.9,
       "desconto_pct": 37,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "categoria": "Cozinha",
       "titulo": "Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF-53 | Amazon.com.br",
       "origem": "curadoria"
@@ -81,7 +81,7 @@
       "imagem": "https://m.media-amazon.com/images/I/413xEFDQx5L._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 722.17,
       "desconto_pct": 20,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "categoria": "Casa & Utilidades",
       "titulo": "Frigobar Eos Ice Compact 47l Branco Efb50 110v | Amazon.com.br",
       "origem": "curadoria"
@@ -102,7 +102,7 @@
       "imagem": "https://m.media-amazon.com/images/I/41W+miLnA1L._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 865.56,
       "desconto_pct": 19,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "categoria": "Casa & Utilidades",
       "titulo": "Frigobar Eos 71 Litros Ice Compact Branco Efb80 110v | Amazon.com.br",
       "origem": "curadoria"
@@ -182,7 +182,7 @@
       "imagem": "https://m.media-amazon.com/images/I/6157NUZTSsL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 322.07,
       "desconto_pct": 29,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "categoria": "Informática",
       "titulo": "Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA 1700/1200/1151 e AMD AM5/AM4 Desktop | Amazon.com.br",
       "origem": "curadoria"
@@ -203,7 +203,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -223,7 +223,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -243,7 +243,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.83,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -265,7 +265,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -287,7 +287,7 @@
       "titulo_jaccard": 0.9,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -309,7 +309,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 309,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -331,7 +331,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 803,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -353,7 +353,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 444,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -397,7 +397,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 545,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -421,7 +421,7 @@
       "origem": "coleta",
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 344,
-      "verificado_em": "2026-11-07T09:15:03-03:00"
+      "verificado_em": "2026-11-07T11:15:03-03:00"
     },
     {
       "asin": "B0D9C2GQ9D",
@@ -441,7 +441,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 757,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -463,7 +463,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 102,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -485,7 +485,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 657,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -514,14 +514,14 @@
     {
       "asin": "B084H54867",
       "titulo": "Purificador de Água Quente 800ml Gelada 2,4L Fria e Natural Motor Compressor controle de temperatura reservatorio de 3,3L total Alerta troca de Filtro refil 6 meses ou 3000l Cinza PH41X 220V",
-      "preco": 1079.9,
+      "preco": 1139.9,
       "preco_referencia": 1769.0,
       "estrelas": 4.5,
       "avaliacoes": 164,
       "imagem": "https://m.media-amazon.com/images/I/51gWv9ifYuL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 39,
+      "desconto_pct": 36,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "Purificador de Água Quente 800ml Gelada 2,4L Fria e Natural Motor Compressor controle de temperatura reservatorio de 3,3L total Alerta troca de Filtro refil 6 meses ou 3000l Cinza PH41X 220V",
       "disponivel": true,
@@ -529,7 +529,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 164,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -549,7 +549,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -569,7 +569,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -589,7 +589,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.86,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -609,14 +609,14 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0CWLN6BQF",
       "titulo": "Britânia Cafeteira BCF19 Inox 18 Cafezinhos Jarra de Vidro 550W 127V | Amazon.com.br",
-      "preco": 88.97,
+      "preco": 89.0,
       "preco_referencia": 152.0,
       "estrelas": 4.5,
       "avaliacoes": 856,
@@ -629,7 +629,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -649,7 +649,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -669,7 +669,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -690,28 +690,28 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B076XC1QX7",
       "titulo": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V | Amazon.com.br",
-      "preco": 674.1,
+      "preco": 711.55,
       "preco_referencia": 999.0,
       "estrelas": 4.7,
       "avaliacoes": 934,
       "imagem": "https://m.media-amazon.com/images/I/41KuuCLPAJL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 33,
+      "desconto_pct": 29,
       "categoria": "Cozinha",
       "tentativas_falhas": 1,
       "titulo_produto": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V | Amazon.com.br",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -732,7 +732,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -752,7 +752,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -774,7 +774,7 @@
       "titulo_jaccard": 0.86,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -796,21 +796,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 966,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B09SVQS9SJ",
       "titulo": "Liquidificador Electrolux inox jarra de vidro resistente capacidade 1,5L 5 velocidades função pulsar 700W EBS30 220v",
-      "preco": 215.9,
+      "preco": 227.9,
       "preco_referencia": 449.0,
       "estrelas": 4.7,
       "avaliacoes": 705,
       "imagem": "https://m.media-amazon.com/images/I/51XI9I69g0L._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 52,
+      "desconto_pct": 49,
       "categoria": "Cozinha",
       "titulo_produto": "Liquidificador Electrolux inox jarra de vidro resistente capacidade 1,5L 5 velocidades função pulsar 700W EBS30 220v",
       "disponivel": true,
@@ -818,7 +818,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 704,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -840,7 +840,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -862,7 +862,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 833,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -905,7 +905,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.86,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -925,7 +925,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -946,7 +946,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -967,7 +967,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -987,7 +987,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1007,7 +1007,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1027,7 +1027,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.89,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1047,7 +1047,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1069,7 +1069,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 713,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1091,7 +1091,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 776,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1113,7 +1113,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 45,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1135,7 +1135,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 44,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1159,7 +1159,7 @@
       "avaliacoes_produto": 727,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-07T09:15:03-03:00"
+      "verificado_em": "2026-11-07T11:15:03-03:00"
     },
     {
       "asin": "B09VJPP4R4",
@@ -1181,7 +1181,7 @@
       "avaliacoes_produto": 867,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-07T09:15:03-03:00"
+      "verificado_em": "2026-11-07T11:15:03-03:00"
     },
     {
       "asin": "B098GTQL6N",
@@ -1201,7 +1201,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.1,
       "avaliacoes_produto": 319,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1223,7 +1223,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 280,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1245,7 +1245,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 325,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1269,7 +1269,7 @@
       "origem": "coleta",
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 275,
-      "verificado_em": "2026-11-07T09:15:03-03:00"
+      "verificado_em": "2026-11-07T11:15:03-03:00"
     },
     {
       "asin": "B0D6NMCZG1",
@@ -1287,7 +1287,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1308,27 +1308,27 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.8,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0DWQK1Q8S",
       "titulo": "Monitor Gamer Samsung Odyssey G5 27, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura com 1000R, HDR 10, AMD FreeSync, Eye Saver Mode & Flicker Free Mode | Amazon.com.br",
-      "preco": 987.05,
+      "preco": 926.1,
       "preco_referencia": 1449.0,
       "estrelas": 4.8,
       "avaliacoes": 600,
       "imagem": "https://m.media-amazon.com/images/I/61Jv+Gj6aBL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 32,
+      "desconto_pct": 36,
       "categoria": "Informática",
       "titulo_produto": "Monitor Gamer Samsung Odyssey G5 27, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura com 1000R, HDR 10, AMD FreeSync, Eye Saver Mode & Flicker Free Mode | Amazon.com.br",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.95,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1348,7 +1348,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1370,21 +1370,21 @@
       "titulo_jaccard": 0.93,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0B6QDWS98",
       "titulo": "Teclado Mecânico Redragon Lakshmi 60% ABNT2 Iluminação Rainbow Switch Marrom Preto K606R",
-      "preco": 109.99,
+      "preco": 127.65,
       "preco_referencia": 199.9,
       "estrelas": 4.8,
       "avaliacoes": 761,
       "imagem": "https://m.media-amazon.com/images/I/61CPK7k3tEL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 45,
+      "desconto_pct": 36,
       "categoria": "Informática",
       "titulo_produto": "Teclado Mecânico Redragon Lakshmi 60% ABNT2 Iluminação Rainbow Switch Marrom Preto K606R",
       "disponivel": true,
@@ -1392,7 +1392,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 759,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1414,7 +1414,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 651,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1436,7 +1436,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 384,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1460,19 +1460,19 @@
       "origem": "coleta",
       "estrelas_produto": 4.1,
       "avaliacoes_produto": 330,
-      "verificado_em": "2026-11-07T09:15:03-03:00"
+      "verificado_em": "2026-11-07T11:15:03-03:00"
     },
     {
       "asin": "B0FTZN4CM3",
       "titulo": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
-      "preco": 326.8,
+      "preco": 310.65,
       "preco_referencia": 499.0,
       "estrelas": 4.5,
       "avaliacoes": 233,
       "imagem": "https://m.media-amazon.com/images/I/51YC16k39FL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 35,
+      "desconto_pct": 38,
       "categoria": "Informática",
       "titulo_produto": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
       "disponivel": true,
@@ -1480,7 +1480,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 230,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1502,7 +1502,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 274,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1524,7 +1524,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.9,
       "avaliacoes_produto": 163,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1546,7 +1546,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1568,7 +1568,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 591,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1590,7 +1590,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 213,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1612,7 +1612,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 198,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1634,27 +1634,27 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 315,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B09B8VWZRG",
       "titulo": "Máquina de Lavar Electrolux 17kg Branca Essential Care com Cesto Inox e Jet&Clean (LED17) - 127V",
-      "preco": 1889.1,
+      "preco": 1994.05,
       "preco_referencia": 3249.0,
       "estrelas": 4.7,
       "avaliacoes": 462,
       "imagem": "https://m.media-amazon.com/images/I/41cbbClO-jL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 42,
+      "desconto_pct": 39,
       "categoria": "Lavanderia",
       "titulo_produto": "Máquina de Lavar Electrolux 17kg Branca Essential Care com Cesto Inox e Jet&Clean (LED17) - 127V",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1675,7 +1675,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1695,7 +1695,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1715,7 +1715,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1737,7 +1737,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1759,21 +1759,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D15331MK",
       "titulo": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 15KG 110V BRANCA LE1521BR",
-      "preco": 484.0,
+      "preco": 521.55,
       "preco_referencia": 589.0,
       "estrelas": 4.4,
       "avaliacoes": 342,
       "imagem": "https://m.media-amazon.com/images/I/51NVHwCuEqL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 18,
+      "desconto_pct": 11,
       "categoria": "Lavanderia",
       "titulo_produto": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 15KG 110V BRANCA LE1521BR",
       "disponivel": true,
@@ -1781,7 +1781,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1803,7 +1803,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 115,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1825,7 +1825,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 705,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1847,21 +1847,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 396,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0FCYWT6BJ",
       "titulo": "Electrolux Máquina de Lavar Electrolux 14,5kg Preta Efficient Cesto Inox, Jet&Clean e Filtro Fiapos (LEP15) 220V",
-      "preco": 1799.09,
+      "preco": 1899.04,
       "preco_referencia": 2499.0,
       "estrelas": 4.4,
       "avaliacoes": 41,
       "imagem": "https://m.media-amazon.com/images/I/51rihl3mQML._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 28,
+      "desconto_pct": 24,
       "categoria": "Lavanderia",
       "titulo_produto": "Electrolux Máquina de Lavar Electrolux 14,5kg Preta Efficient Cesto Inox, Jet&Clean e Filtro Fiapos (LEP15) 220V",
       "disponivel": true,
@@ -1869,7 +1869,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 40,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1891,7 +1891,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 47,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1913,21 +1913,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.2,
       "avaliacoes_produto": 30,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B09B929QDL",
       "titulo": "Máquina de Lavar 17kg Electrolux Essential Care com Cesto Inox, Jet&Clean e Ultra Filter (LED17) 220v",
-      "preco": 1889.1,
+      "preco": 1994.05,
       "preco_referencia": 2420.0,
       "estrelas": 4.7,
       "avaliacoes": 210,
       "imagem": "https://m.media-amazon.com/images/I/41jXZmfuQoL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 22,
+      "desconto_pct": 18,
       "categoria": "Lavanderia",
       "titulo_produto": "Máquina de Lavar 17kg Electrolux Essential Care com Cesto Inox, Jet&Clean e Ultra Filter (LED17) 220v",
       "disponivel": true,
@@ -1935,7 +1935,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 210,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1957,7 +1957,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": 79,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1979,7 +1979,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 712,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -2001,7 +2001,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 160,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -2023,7 +2023,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 190,
-      "verificado_em": "2026-11-07T09:15:03-03:00",
+      "verificado_em": "2026-11-07T11:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     }
