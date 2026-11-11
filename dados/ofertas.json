@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-11T11:15:03-03:00",
+  "gerado_em": "2026-11-11T13:15:03-03:00",
   "total": 95,
   "ofertas": [
     {
@@ -60,7 +60,7 @@
       "imagem": "https://m.media-amazon.com/images/I/51OmxaZFbNL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 749.9,
       "desconto_pct": 37,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "categoria": "Cozinha",
       "titulo": "Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF-53 | Amazon.com.br",
       "origem": "curadoria"
@@ -81,7 +81,7 @@
       "imagem": "https://m.media-amazon.com/images/I/413xEFDQx5L._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 722.17,
       "desconto_pct": 20,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "categoria": "Casa & Utilidades",
       "titulo": "Frigobar Eos Ice Compact 47l Branco Efb50 110v | Amazon.com.br",
       "origem": "curadoria"
@@ -102,7 +102,7 @@
       "imagem": "https://m.media-amazon.com/images/I/41W+miLnA1L._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 865.56,
       "desconto_pct": 19,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "categoria": "Casa & Utilidades",
       "titulo": "Frigobar Eos 71 Litros Ice Compact Branco Efb80 110v | Amazon.com.br",
       "origem": "curadoria"
@@ -182,7 +182,7 @@
       "imagem": "https://m.media-amazon.com/images/I/6157NUZTSsL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 322.07,
       "desconto_pct": 36,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "categoria": "Informática",
       "titulo": "Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA 1700/1200/1151 e AMD AM5/AM4 Desktop | Amazon.com.br",
       "origem": "curadoria"
@@ -203,7 +203,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -223,7 +223,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -243,21 +243,21 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.83,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0DPKZLMPC",
       "titulo": "MONDIAL Aspirador de Pó Turbo Cycle Hepa, Azul Escuro/Inox, 1550W, 110V - AP-41-BLI",
-      "preco": 149.5,
+      "preco": 154.78,
       "preco_referencia": 329.9,
       "estrelas": 4.8,
       "avaliacoes": 363,
       "imagem": "https://m.media-amazon.com/images/I/41Vq3lzz1HL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 55,
+      "desconto_pct": 53,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "MONDIAL Aspirador de Pó Turbo Cycle Hepa, Azul Escuro/Inox, 1550W, 110V - AP-41-BLI",
       "disponivel": true,
@@ -265,7 +265,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -287,7 +287,7 @@
       "titulo_jaccard": 0.9,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -309,7 +309,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 309,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -331,7 +331,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 803,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -353,7 +353,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 444,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -375,7 +375,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 545,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -399,7 +399,7 @@
       "origem": "coleta",
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 344,
-      "verificado_em": "2026-11-11T11:15:03-03:00"
+      "verificado_em": "2026-11-11T13:15:03-03:00"
     },
     {
       "asin": "B0D9C2GQ9D",
@@ -419,7 +419,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 757,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -441,21 +441,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 102,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B07DYJPN46",
       "titulo": "Aspirador de pó com saco Electrolux controle sucção 1400W indicador troca saco ajuste de potencia SON10 220V",
-      "preco": 313.39,
+      "preco": 329.9,
       "preco_referencia": 439.9,
       "estrelas": 4.7,
       "avaliacoes": 657,
       "imagem": "https://m.media-amazon.com/images/I/51PHlLo4wCL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 29,
+      "desconto_pct": 25,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "Aspirador de pó com saco Electrolux controle sucção 1400W indicador troca saco ajuste de potencia SON10 220V",
       "disponivel": true,
@@ -463,7 +463,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 657,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -485,7 +485,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 164,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -507,7 +507,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 540,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -529,7 +529,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 716,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -549,7 +549,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -569,7 +569,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -589,7 +589,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.86,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -609,7 +609,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -629,7 +629,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -649,7 +649,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -669,7 +669,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -690,7 +690,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -711,7 +711,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -732,27 +732,27 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0DY3G3MJW",
       "titulo": "Air Fryer Philco 4L Revestimento Redstone 1500W PAF40A 220V",
-      "preco": 219.91,
+      "preco": 197.1,
       "preco_referencia": 357.0,
       "estrelas": 4.8,
       "avaliacoes": 800,
       "imagem": "https://m.media-amazon.com/images/I/51TMCXmRIdL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 38,
+      "desconto_pct": 45,
       "categoria": "Cozinha",
       "titulo_produto": "Air Fryer Philco 4L Revestimento Redstone 1500W PAF40A 220V",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -774,7 +774,7 @@
       "titulo_jaccard": 0.86,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -796,7 +796,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 966,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -818,7 +818,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 704,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -840,7 +840,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -862,7 +862,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 833,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -887,7 +887,7 @@
       "descartar": null,
       "origem": "coleta",
       "tentativas_falhas": 1,
-      "verificado_em": "2026-11-11T11:15:03-03:00"
+      "verificado_em": "2026-11-11T13:15:03-03:00"
     },
     {
       "asin": "B076BBRJZK",
@@ -906,7 +906,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.86,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -926,28 +926,28 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0CYCJ66Y8",
       "titulo": "WAP Parafusadeira e Furadeira de Impacto 3/8\" WF-700K10, com 11 Acessórios e Maleta, Controle de Velocidade, 700W 220V | Amazon.com.br",
-      "preco": 118.71,
+      "preco": 130.41,
       "preco_referencia": 239.9,
       "estrelas": 4.6,
       "avaliacoes": 912,
       "imagem": "https://m.media-amazon.com/images/I/81nOM1QSkkL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 51,
+      "desconto_pct": 46,
       "categoria": "Ferramentas & Automotivo",
       "tentativas_falhas": 1,
       "titulo_produto": "WAP Parafusadeira e Furadeira de Impacto 3/8\" WF-700K10, com 11 Acessórios e Maleta, Controle de Velocidade, 700W 220V | Amazon.com.br",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -968,7 +968,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -988,7 +988,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1008,7 +1008,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1028,7 +1028,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.89,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1048,7 +1048,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1070,7 +1070,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 713,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1092,21 +1092,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 776,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0F676GF1X",
       "titulo": "WAP Parafusadeira e Furadeira Impacto 3/8\" WF 700FE W2, Limitador de Profundidade e Empunhadeira Auxiliar 40Nm 700W 127V",
-      "preco": 116.9,
+      "preco": 119.9,
       "preco_referencia": 199.9,
       "estrelas": 4.4,
       "avaliacoes": 48,
       "imagem": "https://m.media-amazon.com/images/I/71ReqmBZIQL._AC_SX569_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 42,
+      "desconto_pct": 40,
       "categoria": "Ferramentas & Automotivo",
       "titulo_produto": "WAP Parafusadeira e Furadeira Impacto 3/8\" WF 700FE W2, Limitador de Profundidade e Empunhadeira Auxiliar 40Nm 700W 127V",
       "disponivel": true,
@@ -1114,7 +1114,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 45,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1136,7 +1136,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 44,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1182,7 +1182,7 @@
       "avaliacoes_produto": 867,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-11T11:15:03-03:00"
+      "verificado_em": "2026-11-11T13:15:03-03:00"
     },
     {
       "asin": "B098GTQL6N",
@@ -1202,7 +1202,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.1,
       "avaliacoes_produto": 319,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1224,21 +1224,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 280,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B07XLNQTQH",
       "titulo": "BLACK+DECKER Furadeira e Parafusadeira BCD702C1 20V",
-      "preco": 259.89,
+      "preco": 301.48,
       "preco_referencia": 479.0,
       "estrelas": 4.6,
       "avaliacoes": 325,
       "imagem": "https://m.media-amazon.com/images/I/61BDIs7kvtL._AC_SX569_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 46,
+      "desconto_pct": 37,
       "categoria": "Ferramentas & Automotivo",
       "titulo_produto": "BLACK+DECKER Furadeira e Parafusadeira BCD702C1 20V",
       "disponivel": true,
@@ -1246,7 +1246,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 325,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1270,7 +1270,7 @@
       "origem": "coleta",
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 275,
-      "verificado_em": "2026-11-11T11:15:03-03:00"
+      "verificado_em": "2026-11-11T13:15:03-03:00"
     },
     {
       "asin": "B0D6NMCZG1",
@@ -1288,7 +1288,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1309,7 +1309,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.8,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1329,7 +1329,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.95,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1349,7 +1349,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1371,7 +1371,7 @@
       "titulo_jaccard": 0.93,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1393,7 +1393,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 759,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1415,7 +1415,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 651,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1437,7 +1437,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 384,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1461,12 +1461,12 @@
       "origem": "coleta",
       "estrelas_produto": 4.1,
       "avaliacoes_produto": 330,
-      "verificado_em": "2026-11-11T11:15:03-03:00"
+      "verificado_em": "2026-11-11T13:15:03-03:00"
     },
     {
       "asin": "B0FTZN4CM3",
       "titulo": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
-      "preco": 324.9,
+      "preco": 326.8,
       "preco_referencia": 499.0,
       "estrelas": 4.5,
       "avaliacoes": 241,
@@ -1481,7 +1481,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 230,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1503,21 +1503,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 274,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0BN4PL4WJ",
       "titulo": "Teclado Mecânico Gamer Redragon Lakshmi 60% ABNT2 Switch Marrom Laranja Cinza Preto K606-OG GY BK",
-      "preco": 131.51,
+      "preco": 137.63,
       "preco_referencia": 228.75,
       "estrelas": 4.9,
       "avaliacoes": 168,
       "imagem": "https://m.media-amazon.com/images/I/61osdXpJg9L._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 43,
+      "desconto_pct": 40,
       "categoria": "Informática",
       "titulo_produto": "Teclado Mecânico Gamer Redragon Lakshmi 60% ABNT2 Switch Marrom Laranja Cinza Preto K606-OG GY BK",
       "disponivel": true,
@@ -1525,7 +1525,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.9,
       "avaliacoes_produto": 163,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1547,7 +1547,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1569,7 +1569,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 591,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1591,21 +1591,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 213,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0FPDW9PLB",
       "titulo": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
-      "preco": 1154.25,
+      "preco": 1092.6,
       "preco_referencia": 1799.0,
       "estrelas": 4.7,
       "avaliacoes": 204,
       "imagem": "https://m.media-amazon.com/images/I/91P194qjQmL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 36,
+      "desconto_pct": 39,
       "categoria": "Informática",
       "titulo_produto": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
       "disponivel": true,
@@ -1613,7 +1613,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 198,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1635,7 +1635,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 735,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1655,14 +1655,14 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D9YS13X6",
       "titulo": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Inox 11kg 127V | Amazon.com.br",
-      "preco": 2804.15,
+      "preco": 2788.99,
       "preco_referencia": 3893.68,
       "estrelas": 4.7,
       "avaliacoes": 127,
@@ -1676,27 +1676,27 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D9YTXRB7",
       "titulo": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 220V | Amazon.com.br",
-      "preco": 2699.1,
+      "preco": 2849.05,
       "preco_referencia": 3577.89,
       "estrelas": 4.6,
       "avaliacoes": 127,
       "imagem": "https://m.media-amazon.com/images/I/51Hw5cBatiL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 25,
+      "desconto_pct": 20,
       "categoria": "Lavanderia",
       "titulo_produto": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 220V | Amazon.com.br",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1716,7 +1716,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1738,7 +1738,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1760,7 +1760,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1782,21 +1782,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D9YQNT3Y",
       "titulo": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 127V",
-      "preco": 2600.15,
+      "preco": 3199.0,
       "preco_referencia": 3577.89,
       "estrelas": 4.6,
       "avaliacoes": 115,
       "imagem": "https://m.media-amazon.com/images/I/51Hw5cBatiL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 27,
+      "desconto_pct": 11,
       "categoria": "Lavanderia",
       "titulo_produto": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 127V",
       "disponivel": true,
@@ -1804,7 +1804,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 115,
-      "verificado_em": "2026-11-11T09:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1826,7 +1826,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 705,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1848,7 +1848,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 396,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1870,7 +1870,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 40,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1892,7 +1892,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 47,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1914,7 +1914,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.2,
       "avaliacoes_produto": 30,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1936,7 +1936,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 210,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1958,7 +1958,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": 79,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1980,14 +1980,14 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 712,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0DBN2NR2Q",
       "titulo": "Samsung Lavadora Digital Inverter WW11T Branca 11kg 127V",
-      "preco": 2260.18,
+      "preco": 2251.65,
       "preco_referencia": 3472.63,
       "estrelas": 4.5,
       "avaliacoes": 162,
@@ -2002,7 +2002,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 160,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -2024,7 +2024,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 190,
-      "verificado_em": "2026-11-11T11:15:03-03:00",
+      "verificado_em": "2026-11-11T13:15:03-03:00",
       "descartar": null,
       "origem": "coleta"
     }
