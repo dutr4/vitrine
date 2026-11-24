@@ -48,7 +48,7 @@ def main() -> None:
         falhas.append(f"links Amazon sem tag: {sem_tag}")
     if sem_rel:
         falhas.append(f"links Amazon sem rel=nofollow: {sem_rel[:3]}")
-    # A tag de afiliado pode ter maiuscula (ex.: dutr4oferT051-20): a classe
+    # A tag de afiliado pode ter maiuscula (ex.: dutr4ofert04a-20): a classe
     # antiga [a-z0-9-] truncava em 'dutr4ofer' e o gate passava a comparar tag errada.
     tags = set(re.findall(r'tag=([A-Za-z0-9\-_]+)', html))
     print(f"links 'buy': {len(buy)} | tags usadas: {tags}")
