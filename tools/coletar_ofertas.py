@@ -321,25 +321,35 @@ def info_produtos_lote(asins: list[str], container: str | None = None) -> dict[s
     """
     if not asins or os.environ.get("VITRINE_PW_DISABLED") == "1":
         return {}
-    container = container or os.environ.get("VITRINE_PW_CONTAINER", "promobot-dev-promobot-1")
-
-    checa = subprocess.run(
-        ["docker", "inspect", "-f", "{{.State.Running}}", container],
-        capture_output=True, text=True,
-    )
-    if checa.returncode != 0 or "true" not in checa.stdout.lower():
-        return {}
 
     base = os.path.dirname(os.path.abspath(__file__))
-    subprocess.run(["docker", "cp", os.path.join(base, "pw_reader.py"), f"{container}:/tmp/pw_reader.py"],
-                   capture_output=True, text=True)
+    # Dois modos de leitura, mesma logica:
+    #   VITRINE_PW_LOCAL=1 -> roda o leitor com o interpretador local (host com IP
+    #   residencial e Playwright instalado). Usado quando o container/VM do DEV nao
+    #   esta disponivel (ex.: homo lab sem a VM do DEV, 24/11/2026).
+    #   padrao -> docker exec no container do PromoBot.
+    local = os.environ.get("VITRINE_PW_LOCAL") == "1"
+    if local:
+        prefixo = [sys.executable, os.path.join(base, "pw_reader.py")]
+        container = None
+    else:
+        container = container or os.environ.get("VITRINE_PW_CONTAINER", "promobot-dev-promobot-1")
+        checa = subprocess.run(
+            ["docker", "inspect", "-f", "{{.State.Running}}", container],
+            capture_output=True, text=True,
+        )
+        if checa.returncode != 0 or "true" not in checa.stdout.lower():
+            return {}
+        subprocess.run(["docker", "cp", os.path.join(base, "pw_reader.py"), f"{container}:/tmp/pw_reader.py"],
+                       capture_output=True, text=True)
+        prefixo = ["docker", "exec", container, "python", "/tmp/pw_reader.py"]
 
     resultados: dict[str, dict] = {}
     lote = 8  # lotes menores: menos risco de timeout e de bloqueio
     for i in range(0, len(asins), lote):
         proc = subprocess.run(
-            ["docker", "exec", container, "python", "/tmp/pw_reader.py", *asins[i:i + lote]],
-            capture_output=True, text=True, timeout=900,
+            [*prefixo, *asins[i:i + lote]],
+            capture_output=True, text=True, timeout=900, cwd=base,
         )
         for linha in (proc.stdout or "").splitlines():
             try:

@@ -20,7 +20,7 @@ import sys
 
 from playwright.sync_api import sync_playwright
 
-TAG = "dutr4oferta00-20"
+TAG = "dutr4oferT051-20"
 
 # A Amazon bloqueia por fingerprint de cliente, nao so por IP: o UA padrao do
 # Playwright ("HeadlessChrome") e o primeiro sinal. Com UA real + ritmo humano a
