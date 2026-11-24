@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T16:14:30-03:00",
+  "gerado_em": "2026-11-24T16:55:04-03:00",
   "total": 95,
   "ofertas": [
     {
@@ -60,7 +60,7 @@
       "imagem": "https://m.media-amazon.com/images/I/51OmxaZFbNL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 749.9,
       "desconto_pct": 33,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "categoria": "Cozinha",
       "titulo": "Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF-53 | Amazon.com.br",
       "origem": "curadoria"
@@ -102,7 +102,7 @@
       "imagem": "https://m.media-amazon.com/images/I/41W+miLnA1L._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 865.56,
       "desconto_pct": 20,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "categoria": "Casa & Utilidades",
       "titulo": "Frigobar Eos 71 Litros Ice Compact Branco Efb80 110v | Amazon.com.br",
       "origem": "curadoria"
@@ -182,7 +182,7 @@
       "imagem": "https://m.media-amazon.com/images/I/6157NUZTSsL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 322.07,
       "desconto_pct": 36,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "categoria": "Informática",
       "titulo": "Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA 1700/1200/1151 e AMD AM5/AM4 Desktop | Amazon.com.br",
       "origem": "curadoria"
@@ -203,7 +203,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -223,7 +223,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.83,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -245,7 +245,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -267,7 +267,7 @@
       "titulo_jaccard": 0.9,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -289,7 +289,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 309,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -311,7 +311,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 803,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -333,7 +333,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 444,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -355,7 +355,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 545,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T16:55:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
