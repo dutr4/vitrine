@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T16:55:04-03:00",
+  "gerado_em": "2026-11-24T19:30:04-03:00",
   "total": 95,
   "ofertas": [
     {
@@ -60,7 +60,7 @@
       "imagem": "https://m.media-amazon.com/images/I/51OmxaZFbNL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 749.9,
       "desconto_pct": 33,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "categoria": "Cozinha",
       "titulo": "Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF-53 | Amazon.com.br",
       "origem": "curadoria"
@@ -102,7 +102,7 @@
       "imagem": "https://m.media-amazon.com/images/I/41W+miLnA1L._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 865.56,
       "desconto_pct": 20,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "categoria": "Casa & Utilidades",
       "titulo": "Frigobar Eos 71 Litros Ice Compact Branco Efb80 110v | Amazon.com.br",
       "origem": "curadoria"
@@ -182,7 +182,7 @@
       "imagem": "https://m.media-amazon.com/images/I/6157NUZTSsL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 322.07,
       "desconto_pct": 36,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "categoria": "Informática",
       "titulo": "Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA 1700/1200/1151 e AMD AM5/AM4 Desktop | Amazon.com.br",
       "origem": "curadoria"
@@ -203,7 +203,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -223,7 +223,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.83,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -245,7 +245,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -267,21 +267,21 @@
       "titulo_jaccard": 0.9,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0BG6D7QVB",
       "titulo": "Aspirador de Pó Vertical 2 em Portátil 1000W - 110V - Gaabor",
-      "preco": 110.1,
+      "preco": 114.1,
       "preco_referencia": 319.0,
       "estrelas": 4.5,
       "avaliacoes": 315,
       "imagem": "https://m.media-amazon.com/images/I/51KMnOIVLuL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 65,
+      "desconto_pct": 64,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "Aspirador de Pó Vertical 2 em Portátil 1000W - 110V - Gaabor",
       "disponivel": true,
@@ -289,7 +289,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 309,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -311,7 +311,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 803,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -333,7 +333,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 444,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -355,7 +355,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 545,
-      "verificado_em": "2026-11-24T16:55:04-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -384,14 +384,14 @@
     {
       "asin": "B0D9C2GQ9D",
       "titulo": "MONDIAL Ventilador de Coluna 40cm Turbo, Preto/Prata, 140W, 220V - NVT-40C-8P-B",
-      "preco": 227.05,
+      "preco": 223.43,
       "preco_referencia": 319.9,
       "estrelas": 4.4,
       "avaliacoes": 784,
       "imagem": "https://m.media-amazon.com/images/I/51s-NnLhTVL._AC_SX569_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 29,
+      "desconto_pct": 30,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "MONDIAL Ventilador de Coluna 40cm Turbo, Preto/Prata, 140W, 220V - NVT-40C-8P-B",
       "disponivel": true,
@@ -399,7 +399,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 757,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -421,7 +421,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 102,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -443,7 +443,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 657,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -487,7 +487,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 540,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -516,14 +516,14 @@
     {
       "asin": "B0CBSZ41J4",
       "titulo": "Britânia Britania Aspirador de Pó 2 em 1 Vertical, Preto, Filtro HEPA, Pisos e Carpetes, Elétrico, 220V, 1L, 1.43kg",
-      "preco": 149.9,
+      "preco": 158.3,
       "preco_referencia": 225.9,
       "estrelas": 4.6,
       "avaliacoes": 830,
       "imagem": "https://m.media-amazon.com/images/I/41DJWLonAjL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 34,
+      "desconto_pct": 30,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "Britânia Britania Aspirador de Pó 2 em 1 Vertical, Preto, Filtro HEPA, Pisos e Carpetes, Elétrico, 220V, 1L, 1.43kg",
       "disponivel": true,
@@ -533,7 +533,7 @@
       "origem": "coleta",
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 830,
-      "verificado_em": "2026-11-24T16:14:30-03:00"
+      "verificado_em": "2026-11-24T19:30:04-03:00"
     },
     {
       "asin": "B0CH5L6V3Q",
@@ -611,7 +611,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -631,7 +631,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -651,7 +651,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -692,7 +692,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -713,7 +713,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -734,7 +734,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -754,7 +754,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -776,7 +776,7 @@
       "titulo_jaccard": 0.86,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -805,7 +805,7 @@
     {
       "asin": "B09SVQS9SJ",
       "titulo": "Liquidificador Electrolux inox jarra de vidro resistente capacidade 1,5L 5 velocidades função pulsar 700W EBS30 220v",
-      "preco": 213.51,
+      "preco": 215.91,
       "preco_referencia": 449.0,
       "estrelas": 4.7,
       "avaliacoes": 708,
@@ -820,7 +820,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 704,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -842,7 +842,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -867,7 +867,7 @@
       "descartar": null,
       "origem": "coleta",
       "tentativas_falhas": 1,
-      "verificado_em": "2026-11-24T16:14:30-03:00"
+      "verificado_em": "2026-11-24T19:30:04-03:00"
     },
     {
       "asin": "B09LMFKL6G",
@@ -887,7 +887,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 695,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -908,7 +908,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.86,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -928,7 +928,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -949,7 +949,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -970,7 +970,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -990,7 +990,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1010,7 +1010,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1030,7 +1030,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.89,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1050,7 +1050,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1072,7 +1072,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 776,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1094,7 +1094,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 45,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1116,7 +1116,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 44,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1140,7 +1140,7 @@
       "avaliacoes_produto": 867,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T16:14:30-03:00"
+      "verificado_em": "2026-11-24T19:30:04-03:00"
     },
     {
       "asin": "B0DLXVM1SZ",
@@ -1160,7 +1160,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 280,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1182,7 +1182,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 325,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1228,7 +1228,7 @@
       "avaliacoes_produto": 732,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T16:14:30-03:00"
+      "verificado_em": "2026-11-24T19:30:04-03:00"
     },
     {
       "asin": "B076MFFR5Y",
@@ -1250,7 +1250,7 @@
       "avaliacoes_produto": 716,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T16:14:30-03:00"
+      "verificado_em": "2026-11-24T19:30:04-03:00"
     },
     {
       "asin": "B098GTQL6N",
@@ -1272,7 +1272,7 @@
       "avaliacoes_produto": 322,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T16:14:30-03:00"
+      "verificado_em": "2026-11-24T19:30:04-03:00"
     },
     {
       "asin": "B0D6NMCZG1",
@@ -1290,7 +1290,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1311,7 +1311,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.8,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1331,7 +1331,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.95,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1351,7 +1351,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1373,7 +1373,7 @@
       "titulo_jaccard": 0.93,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1395,7 +1395,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 759,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1417,21 +1417,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 651,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B08CKGW1D4",
       "titulo": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
-      "preco": 465.58,
+      "preco": 517.32,
       "preco_referencia": 936.25,
       "estrelas": 4.6,
       "avaliacoes": 395,
       "imagem": "https://m.media-amazon.com/images/I/91lKZoY9CWL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 50,
+      "desconto_pct": 45,
       "categoria": "Informática",
       "titulo_produto": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
       "disponivel": true,
@@ -1439,7 +1439,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 384,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1463,19 +1463,19 @@
       "origem": "coleta",
       "estrelas_produto": 4.1,
       "avaliacoes_produto": 330,
-      "verificado_em": "2026-11-24T16:14:30-03:00"
+      "verificado_em": "2026-11-24T19:30:04-03:00"
     },
     {
       "asin": "B0FTZN4CM3",
       "titulo": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
-      "preco": 294.4,
+      "preco": 321.1,
       "preco_referencia": 499.0,
       "estrelas": 4.5,
       "avaliacoes": 255,
       "imagem": "https://m.media-amazon.com/images/I/51YC16k39FL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 41,
+      "desconto_pct": 36,
       "categoria": "Informática",
       "titulo_produto": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
       "disponivel": true,
@@ -1483,7 +1483,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 230,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1505,7 +1505,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 274,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1527,7 +1527,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1549,7 +1549,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 591,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1571,7 +1571,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 213,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1593,7 +1593,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 198,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1615,21 +1615,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 735,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D3J76C63",
       "titulo": "Monitor Gamer Curvo Samsung Odyssey 34’’, Ultra WQHD, 165Hz, 1ms, tela ultrawide, HDMI, Display Port, Freesync Premium, preto, série G5",
-      "preco": 1599.0,
+      "preco": 1416.6,
       "preco_referencia": 3599.0,
       "estrelas": 4.6,
       "avaliacoes": 490,
       "imagem": "https://m.media-amazon.com/images/I/81wfdDTIjHS._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 56,
+      "desconto_pct": 61,
       "categoria": "Informática",
       "titulo_produto": "Monitor Gamer Curvo Samsung Odyssey 34’’, Ultra WQHD, 165Hz, 1ms, tela ultrawide, HDMI, Display Port, Freesync Premium, preto, série G5",
       "disponivel": true,
@@ -1637,7 +1637,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 490,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1657,7 +1657,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1678,27 +1678,27 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D9YTXRB7",
       "titulo": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 220V | Amazon.com.br",
-      "preco": 2604.32,
+      "preco": 3324.9,
       "preco_referencia": 3577.89,
       "estrelas": 4.6,
       "avaliacoes": 127,
       "imagem": "https://m.media-amazon.com/images/I/51Hw5cBatiL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 27,
+      "desconto_pct": 7,
       "categoria": "Lavanderia",
       "titulo_produto": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 220V | Amazon.com.br",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1718,7 +1718,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1740,7 +1740,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1762,21 +1762,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D15331MK",
       "titulo": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 15KG 110V BRANCA LE1521BR",
-      "preco": 578.55,
+      "preco": 548.1,
       "preco_referencia": 589.0,
       "estrelas": 4.4,
       "avaliacoes": 350,
       "imagem": "https://m.media-amazon.com/images/I/51NVHwCuEqL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 2,
+      "desconto_pct": 7,
       "categoria": "Lavanderia",
       "titulo_produto": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 15KG 110V BRANCA LE1521BR",
       "disponivel": true,
@@ -1784,21 +1784,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D9YQNT3Y",
       "titulo": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 127V",
-      "preco": 3199.0,
+      "preco": 2604.32,
       "preco_referencia": 3577.89,
       "estrelas": 4.6,
       "avaliacoes": 115,
       "imagem": "https://m.media-amazon.com/images/I/51Hw5cBatiL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 11,
+      "desconto_pct": 27,
       "categoria": "Lavanderia",
       "titulo_produto": "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Branca 11kg 127V",
       "disponivel": true,
@@ -1806,7 +1806,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 115,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1828,7 +1828,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 705,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1850,7 +1850,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 396,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1872,7 +1872,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 40,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1894,7 +1894,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 47,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1916,7 +1916,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.2,
       "avaliacoes_produto": 30,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1938,7 +1938,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 210,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1960,7 +1960,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": 79,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1982,7 +1982,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 712,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -2004,7 +2004,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 160,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -2026,7 +2026,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 190,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-24T19:30:04-03:00",
       "descartar": null,
       "origem": "coleta"
     }
