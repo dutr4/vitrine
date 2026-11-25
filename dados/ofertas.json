@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T19:30:04-03:00",
+  "gerado_em": "2026-11-25T07:30:06-03:00",
   "total": 95,
   "ofertas": [
     {
@@ -60,7 +60,7 @@
       "imagem": "https://m.media-amazon.com/images/I/51OmxaZFbNL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 749.9,
       "desconto_pct": 33,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "categoria": "Cozinha",
       "titulo": "Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF-53 | Amazon.com.br",
       "origem": "curadoria"
@@ -102,7 +102,7 @@
       "imagem": "https://m.media-amazon.com/images/I/41W+miLnA1L._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 865.56,
       "desconto_pct": 20,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "categoria": "Casa & Utilidades",
       "titulo": "Frigobar Eos 71 Litros Ice Compact Branco Efb80 110v | Amazon.com.br",
       "origem": "curadoria"
@@ -174,7 +174,7 @@
       "guia": null,
       "guia_rotulo": null,
       "descartar": null,
-      "preco": 206.59,
+      "preco": 206.58,
       "disponivel": true,
       "titulo_produto": "Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA 1700/1200/1151 e AMD AM5/AM4 Desktop | Amazon.com.br",
       "estrelas": 5.0,
@@ -182,7 +182,7 @@
       "imagem": "https://m.media-amazon.com/images/I/6157NUZTSsL._AC_UF500,500_QL80_.jpg",
       "preco_referencia": 322.07,
       "desconto_pct": 36,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "categoria": "Informática",
       "titulo": "Gamdias Water Cooler Aura GL240 V2 240mm ARGB Compatível c/ Intel LGA 1700/1200/1151 e AMD AM5/AM4 Desktop | Amazon.com.br",
       "origem": "curadoria"
@@ -190,7 +190,7 @@
     {
       "asin": "B0DXFTDS8V",
       "titulo": "Philco Aspirador Robô 3 em 1 Com MOP PAS23 Preto Bivolt Anticolisão | Amazon.com.br",
-      "preco": 318.54,
+      "preco": 318.55,
       "preco_referencia": 699.9,
       "estrelas": 4.4,
       "avaliacoes": 145,
@@ -203,27 +203,27 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0FJNSJCFW",
       "titulo": "Frigobar 67 Litros Inverter Bivolt Midea Bivolt | Amazon.com.br",
-      "preco": 849.0,
+      "preco": 878.55,
       "preco_referencia": 1149.0,
       "estrelas": 4.7,
       "avaliacoes": 120,
       "imagem": "https://m.media-amazon.com/images/I/718RJy0DGaL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 26,
+      "desconto_pct": 24,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "Frigobar 67 Litros Inverter Bivolt Midea Bivolt | Amazon.com.br",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.83,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -245,7 +245,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -267,7 +267,7 @@
       "titulo_jaccard": 0.9,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -289,14 +289,14 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 309,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0DSLX7ZQX",
       "titulo": "Electrolux Purificador de Água Gelada Fria e Natural Elétrico Compacto Eletronico placa Filtro refil 6 meses ou 3000l Painel Touch Bivolt Preto PE12P",
-      "preco": 597.9,
+      "preco": 594.91,
       "preco_referencia": 889.9,
       "estrelas": 4.8,
       "avaliacoes": 858,
@@ -311,14 +311,14 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 803,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B07Z52NM7X",
       "titulo": "MONDIAL Ventilador 40cm Super Turbo 8 Pás Repelente Pastilha, Preto/Prata, 140W, 110V - VTX-40-8P-RP",
-      "preco": 199.72,
+      "preco": 199.71,
       "preco_referencia": 279.9,
       "estrelas": 4.6,
       "avaliacoes": 447,
@@ -333,7 +333,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 444,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -355,7 +355,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 545,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -384,7 +384,7 @@
     {
       "asin": "B0D9C2GQ9D",
       "titulo": "MONDIAL Ventilador de Coluna 40cm Turbo, Preto/Prata, 140W, 220V - NVT-40C-8P-B",
-      "preco": 223.43,
+      "preco": 223.42,
       "preco_referencia": 319.9,
       "estrelas": 4.4,
       "avaliacoes": 784,
@@ -399,7 +399,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 757,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -421,14 +421,14 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 102,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B07DYJPN46",
       "titulo": "Aspirador de pó com saco Electrolux controle sucção 1400W indicador troca saco ajuste de potencia SON10 220V",
-      "preco": 332.4,
+      "preco": 332.41,
       "preco_referencia": 439.9,
       "estrelas": 4.7,
       "avaliacoes": 657,
@@ -443,21 +443,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 657,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B084H54867",
       "titulo": "Purificador de Água Quente 800ml Gelada 2,4L Fria e Natural Motor Compressor controle de temperatura reservatorio de 3,3L total Alerta troca de Filtro refil 6 meses ou 3000l Cinza PH41X 220V",
-      "preco": 1099.9,
+      "preco": 1011.91,
       "preco_referencia": 1769.0,
       "estrelas": 4.4,
       "avaliacoes": 166,
       "imagem": "https://m.media-amazon.com/images/I/51gWv9ifYuL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 38,
+      "desconto_pct": 43,
       "categoria": "Casa & Utilidades",
       "titulo_produto": "Purificador de Água Quente 800ml Gelada 2,4L Fria e Natural Motor Compressor controle de temperatura reservatorio de 3,3L total Alerta troca de Filtro refil 6 meses ou 3000l Cinza PH41X 220V",
       "disponivel": true,
@@ -465,7 +465,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 164,
-      "verificado_em": "2026-11-24T16:14:30-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -487,7 +487,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 540,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -533,7 +533,7 @@
       "origem": "coleta",
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 830,
-      "verificado_em": "2026-11-24T19:30:04-03:00"
+      "verificado_em": "2026-11-25T07:30:06-03:00"
     },
     {
       "asin": "B0CH5L6V3Q",
@@ -611,27 +611,27 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0CWLN6BQF",
       "titulo": "Britânia Cafeteira BCF19 Inox 18 Cafezinhos Jarra de Vidro 550W 127V | Amazon.com.br",
-      "preco": 99.9,
+      "preco": 98.43,
       "preco_referencia": 152.0,
       "estrelas": 4.5,
       "avaliacoes": 862,
       "imagem": "https://m.media-amazon.com/images/I/515I8adwatL._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 34,
+      "desconto_pct": 35,
       "categoria": "Cozinha",
       "titulo_produto": "Britânia Cafeteira BCF19 Inox 18 Cafezinhos Jarra de Vidro 550W 127V | Amazon.com.br",
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -651,7 +651,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -692,7 +692,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -713,7 +713,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -722,7 +722,7 @@
       "titulo": "Batedeira planetária Electrolux potente capacidade 5L 750W 12 velocidades tigela inox função pulsar massa pesada pes antiderrapante EKM40 preto 127v | Amazon.com.br",
       "preco": 446.0,
       "preco_referencia": 779.9,
-      "estrelas": 4.6,
+      "estrelas": 4.5,
       "avaliacoes": 672,
       "imagem": "https://m.media-amazon.com/images/I/51+Eg-ziV1L._AC_UF500,500_QL80_.jpg",
       "patrocinado": false,
@@ -734,7 +734,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.94,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -754,14 +754,14 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0C7D72S7Z",
       "titulo": "Cafeteira Espresso Oster PrimaLatte Touch Red - 220V | Amazon.com.br",
-      "preco": 735.23,
+      "preco": 735.22,
       "preco_referencia": 1999.0,
       "estrelas": 4.5,
       "avaliacoes": 767,
@@ -776,7 +776,7 @@
       "titulo_jaccard": 0.86,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -805,7 +805,7 @@
     {
       "asin": "B09SVQS9SJ",
       "titulo": "Liquidificador Electrolux inox jarra de vidro resistente capacidade 1,5L 5 velocidades função pulsar 700W EBS30 220v",
-      "preco": 215.91,
+      "preco": 213.51,
       "preco_referencia": 449.0,
       "estrelas": 4.7,
       "avaliacoes": 708,
@@ -820,7 +820,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 704,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -842,7 +842,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -867,7 +867,7 @@
       "descartar": null,
       "origem": "coleta",
       "tentativas_falhas": 1,
-      "verificado_em": "2026-11-24T19:30:04-03:00"
+      "verificado_em": "2026-11-25T07:30:06-03:00"
     },
     {
       "asin": "B09LMFKL6G",
@@ -887,7 +887,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 695,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -908,7 +908,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.86,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -928,14 +928,14 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.9,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0CYCJ66Y8",
       "titulo": "WAP Parafusadeira e Furadeira de Impacto 3/8\" WF-700K10, com 11 Acessórios e Maleta, Controle de Velocidade, 700W 220V | Amazon.com.br",
-      "preco": 116.1,
+      "preco": 116.09,
       "preco_referencia": 239.9,
       "estrelas": 4.6,
       "avaliacoes": 919,
@@ -949,7 +949,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -970,7 +970,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -990,7 +990,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1010,7 +1010,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1030,7 +1030,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.89,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1050,7 +1050,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1072,21 +1072,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 776,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0F676GF1X",
       "titulo": "WAP Parafusadeira e Furadeira Impacto 3/8\" WF 700FE W2, Limitador de Profundidade e Empunhadeira Auxiliar 40Nm 700W 127V",
-      "preco": 119.9,
+      "preco": 116.9,
       "preco_referencia": 199.9,
       "estrelas": 4.4,
       "avaliacoes": 50,
       "imagem": "https://m.media-amazon.com/images/I/71ReqmBZIQL._AC_SX569_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 40,
+      "desconto_pct": 42,
       "categoria": "Ferramentas & Automotivo",
       "titulo_produto": "WAP Parafusadeira e Furadeira Impacto 3/8\" WF 700FE W2, Limitador de Profundidade e Empunhadeira Auxiliar 40Nm 700W 127V",
       "disponivel": true,
@@ -1094,7 +1094,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 45,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1116,7 +1116,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.3,
       "avaliacoes_produto": 44,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1140,7 +1140,7 @@
       "avaliacoes_produto": 867,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T19:30:04-03:00"
+      "verificado_em": "2026-11-25T07:30:06-03:00"
     },
     {
       "asin": "B0DLXVM1SZ",
@@ -1160,7 +1160,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 280,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1182,7 +1182,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 325,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1228,7 +1228,7 @@
       "avaliacoes_produto": 732,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T19:30:04-03:00"
+      "verificado_em": "2026-11-25T07:30:06-03:00"
     },
     {
       "asin": "B076MFFR5Y",
@@ -1250,7 +1250,7 @@
       "avaliacoes_produto": 716,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T19:30:04-03:00"
+      "verificado_em": "2026-11-25T07:30:06-03:00"
     },
     {
       "asin": "B098GTQL6N",
@@ -1272,7 +1272,7 @@
       "avaliacoes_produto": 322,
       "descartar": null,
       "origem": "coleta",
-      "verificado_em": "2026-11-24T19:30:04-03:00"
+      "verificado_em": "2026-11-25T07:30:06-03:00"
     },
     {
       "asin": "B0D6NMCZG1",
@@ -1290,7 +1290,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.91,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1311,7 +1311,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.8,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1331,7 +1331,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.95,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1351,7 +1351,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.88,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1373,7 +1373,7 @@
       "titulo_jaccard": 0.93,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1395,7 +1395,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 759,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1417,7 +1417,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 651,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1439,7 +1439,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 384,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1463,7 +1463,7 @@
       "origem": "coleta",
       "estrelas_produto": 4.1,
       "avaliacoes_produto": 330,
-      "verificado_em": "2026-11-24T19:30:04-03:00"
+      "verificado_em": "2026-11-25T07:30:06-03:00"
     },
     {
       "asin": "B0FTZN4CM3",
@@ -1483,7 +1483,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 230,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1505,7 +1505,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 274,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1527,7 +1527,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 492,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1549,21 +1549,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": 591,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B00UJK9HW8",
       "titulo": "Fonte Gamer ATX KCAS 600W 80 Plus Bronze Aerocool",
-      "preco": 237.5,
+      "preco": 251.9,
       "preco_referencia": 383.88,
       "estrelas": 4.5,
       "avaliacoes": 215,
       "imagem": "https://m.media-amazon.com/images/I/71LoBemQGOL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 38,
+      "desconto_pct": 34,
       "categoria": "Informática",
       "titulo_produto": "Fonte Gamer ATX KCAS 600W 80 Plus Bronze Aerocool",
       "disponivel": true,
@@ -1571,7 +1571,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 213,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1593,7 +1593,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 198,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1615,7 +1615,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 735,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1637,7 +1637,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.6,
       "avaliacoes_produto": 490,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1657,7 +1657,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1678,7 +1678,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1698,7 +1698,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 0.92,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1718,7 +1718,7 @@
       "disponivel": true,
       "titulo_confere": true,
       "titulo_jaccard": 1.0,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1740,7 +1740,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.8,
       "avaliacoes_produto": null,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1762,21 +1762,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0D15331MK",
       "titulo": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 15KG 110V BRANCA LE1521BR",
-      "preco": 548.1,
+      "preco": 578.54,
       "preco_referencia": 589.0,
       "estrelas": 4.4,
       "avaliacoes": 350,
       "imagem": "https://m.media-amazon.com/images/I/51NVHwCuEqL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 7,
+      "desconto_pct": 2,
       "categoria": "Lavanderia",
       "titulo_produto": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 15KG 110V BRANCA LE1521BR",
       "disponivel": true,
@@ -1784,7 +1784,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 339,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1806,7 +1806,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 115,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1828,7 +1828,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 705,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1850,7 +1850,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 396,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1872,7 +1872,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.4,
       "avaliacoes_produto": 40,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1894,7 +1894,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 47,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1916,7 +1916,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.2,
       "avaliacoes_produto": 30,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1938,7 +1938,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 210,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -1960,21 +1960,21 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.0,
       "avaliacoes_produto": 79,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
     {
       "asin": "B0BSR5CS9P",
       "titulo": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 20KG 110V PRATA LE2001PR",
-      "preco": 619.91,
+      "preco": 656.37,
       "preco_referencia": 729.29,
       "estrelas": 4.7,
       "avaliacoes": 712,
       "imagem": "https://m.media-amazon.com/images/I/41-7jTEz8fL._AC_SX679_.jpg",
       "patrocinado": false,
       "fonte": "busca",
-      "desconto_pct": 15,
+      "desconto_pct": 10,
       "categoria": "Lavanderia",
       "titulo_produto": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 20KG 110V PRATA LE2001PR",
       "disponivel": true,
@@ -1982,7 +1982,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 712,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -2004,7 +2004,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.5,
       "avaliacoes_produto": 160,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     },
@@ -2026,7 +2026,7 @@
       "titulo_jaccard": 1.0,
       "estrelas_produto": 4.7,
       "avaliacoes_produto": 190,
-      "verificado_em": "2026-11-24T19:30:04-03:00",
+      "verificado_em": "2026-11-25T07:30:06-03:00",
       "descartar": null,
       "origem": "coleta"
     }
